@@ -1,7 +1,12 @@
+//被景色
+$BG_Color: #000000;
+
 //主字色
 $mainFont_1: #b8151a;
+$mainFont_1-1: #66E123;
 $mainFont_2: #ba9141;
 $mainFont_3: #3a3a3a;
+$mainFont_4: #ffffff;
 
 //提醒字色
 $remind: #292CFF;
@@ -17,10 +22,11 @@ $mainLinear_Word: #ffffff;
 $header_BG_1: #ffffff;
 $header_Color1: #5a6569;
 $header_Color2: #daaf6d;
-$header_mainColor: #b8151a;
+$header_mainColor: #DD2830;
 $header_mainColor_Active: #c9a567;
 $header_langBorder: #daaf6d;
 $header_langBtn: #e5bb85;
+$loginBTN: #DD2830;
 @mixin headerBtn_3 {
     background: #c9a76c;
     border-radius: 50%;
@@ -32,7 +38,7 @@ $header_langBtn: #e5bb85;
     }
 }
 @mixin headerLang {
-    background: #ffffff;
+    background: #000000;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
@@ -62,17 +68,17 @@ $header_langBtn: #e5bb85;
     }
 }
 @mixin headerInput {
-    background: #ffffff;
+    background: #000000;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
-    color: #b11319;
+    color: #ffffff;
     font-size: 16px;
     font-weight: bold;
     padding: 0 5px 0 12px;
 
     &::placeholder {
-        color: #b11319;
+        color: #ffffff;
     }
 }
 @mixin headerMoney {
@@ -129,10 +135,10 @@ $marquee_Border: #daaf6d;
 $marquee_Linear: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
 $marquee_Linear_Word: #ffffff;
 $marquee_Shadow: #0000002c;
-$marquee_Word: #b37d1f;
+$marquee_Word: $mainFont_1-1;
 
 //mainWrap
-$line: #c30505;
+$line: $mainFont_1;
 @mixin pageBtn {
     background: #00000033;
     border-radius: 50%;

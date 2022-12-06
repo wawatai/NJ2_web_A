@@ -17,7 +17,7 @@
             .marquee {
                 width: 100%;
                 height: 52px;
-                background: $marquee_BG;
+                background: $BG_Color;
                 border: solid 1px $marquee_Border;
                 border-radius: 30px;
                 box-shadow: 0 2px 5px 0 $marquee_Shadow inset;
@@ -141,7 +141,7 @@
     
                     p {
                         width: 185px;
-                        color: $mainFont_1;
+                        color: $mainFont_1-1;
                         font-size: 24px;
                         font-weight: bold;
                         flex-shrink: 0;
@@ -187,7 +187,7 @@
 
                             p {
                                 width: 100%;
-                                color: $mainFont_2;
+                                color: $mainFont_1-1;
                                 font-size: 18px;
                                 font-weight: bold;
                                 text-align: center;

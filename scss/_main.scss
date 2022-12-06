@@ -11,6 +11,7 @@ html {
         height: auto;
         min-width: 1400px;
         min-height: 768px;
+        background: $BG_Color;
         position: relative;
         @include scollBar;
 

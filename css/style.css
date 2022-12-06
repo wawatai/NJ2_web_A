@@ -16,21 +16,6 @@ input:disabled {
   border: none !important;
 }
 
-.bg {
-  background: url("../images/bg.jpg") top center;
-  background-size: 100%;
-}
-
-.bg.game {
-  background: url("../images/gameBG.jpg") top center;
-  background-size: 100%;
-}
-
-.bg.inner {
-  background: url("../images/innerBG.jpg") no-repeat top center;
-  background-size: 100%;
-}
-
 .registerBG {
   background: url("../images/registerBG.jpg") no-repeat top center;
 }
@@ -1283,6 +1268,7 @@ html body {
   height: auto;
   min-width: 1400px;
   min-height: 768px;
+  background: #000000;
   position: relative;
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
@@ -1310,7 +1296,7 @@ html body header {
 html body header .top {
   width: 100%;
   height: 70px;
-  background: #ffffff;
+  background: #000000;
   margin: 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1363,47 +1349,48 @@ html body header .top .user li:not(.platform) .loginForm div {
 html body header .top .user li:not(.platform) .loginForm div input {
   width: 180px;
   height: 40px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1019607843) inset;
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1019607843) inset;
-  color: #b11319;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   padding: 0 5px 0 12px;
 }
 html body header .top .user li:not(.platform) .loginForm div input::-webkit-input-placeholder {
-  color: #b11319;
+  color: #ffffff;
 }
 html body header .top .user li:not(.platform) .loginForm div input::-moz-placeholder {
-  color: #b11319;
+  color: #ffffff;
 }
 html body header .top .user li:not(.platform) .loginForm div input:-ms-input-placeholder {
-  color: #b11319;
+  color: #ffffff;
 }
 html body header .top .user li:not(.platform) .loginForm div input::-ms-input-placeholder {
-  color: #b11319;
+  color: #ffffff;
 }
 html body header .top .user li:not(.platform) .loginForm div input::placeholder {
-  color: #b11319;
+  color: #ffffff;
 }
 html body header .top .user li:not(.platform) .loginForm button {
   width: 115px;
   height: 40px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
   border: none;
   border-radius: 30px;
   color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
+  background: #DD2830;
   margin-right: 8px;
 }
 html body header .top .user li:not(.platform) .loginForm button:hover, html body header .top .user li:not(.platform) .loginForm button:active, html body header .top .user li:not(.platform) .loginForm button.active {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
 }
 html body header .top .user li:not(.platform) .loginForm button.signupBtn {
   width: 102px;
@@ -1415,6 +1402,7 @@ html body header .top .user li:not(.platform) .loginForm button.signupBtn {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
+  background: #66E123;
   margin-right: 15px;
 }
 html body header .top .user li:not(.platform) .loginForm button.signupBtn:hover, html body header .top .user li:not(.platform) .loginForm button.signupBtn:active, html body header .top .user li:not(.platform) .loginForm button.signupBtn.active {
@@ -1470,7 +1458,7 @@ html body header .top .user li:not(.platform).lang::after {
 html body header .top .user li:not(.platform).lang select {
   width: 150px;
   height: 40px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1019607843) inset;
@@ -1505,7 +1493,7 @@ html body header .top .user.alLogin li:not(.platform) button {
   width: auto;
   height: auto;
   background: none;
-  color: #b8151a;
+  color: #DD2830;
   font-size: 16px;
   font-weight: bold;
   -webkit-transition: all 0.3s;
@@ -1826,7 +1814,7 @@ html body header .agent .lang::after {
 html body header .agent .lang select {
   width: 150px;
   height: 40px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1019607843) inset;
@@ -2330,7 +2318,7 @@ html body .mainWrap .center .marqueeWrap {
 html body .mainWrap .center .marqueeWrap .marquee {
   width: 100%;
   height: 52px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1725490196) inset;
@@ -2374,7 +2362,7 @@ html body .mainWrap .center .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .mainWrap .center .marqueeWrap .marquee .textBox p {
-  color: #b37d1f;
+  color: #66E123;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -2490,7 +2478,7 @@ html body .mainWrap .center .typeList .typeBox .title i.board_ic {
 }
 html body .mainWrap .center .typeList .typeBox .title p {
   width: 185px;
-  color: #b8151a;
+  color: #66E123;
   font-size: 24px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -2499,7 +2487,7 @@ html body .mainWrap .center .typeList .typeBox .title p {
 html body .mainWrap .center .typeList .typeBox .title .line {
   width: 100%;
   height: 3px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .mainWrap .center .typeList .typeBox .title .star {
   width: 112px;
@@ -2540,7 +2528,7 @@ html body .mainWrap .center .typeList .typeBox ul ol li.game {
 }
 html body .mainWrap .center .typeList .typeBox ul ol li p {
   width: 100%;
-  color: #ba9141;
+  color: #66E123;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -2549,6 +2537,7 @@ html body .mainWrap .center .typeList .typeBox ul ol li p {
 html body footer {
   width: 100%;
   height: auto;
+  background: #000000;
   border-top: solid 1px #f3d197;
 }
 html body footer .center {
@@ -2577,8 +2566,9 @@ html body footer .center .top .listBox {
 html body footer .center .top .listBox .list {
   width: 220px;
   height: 280px;
-  background: #f3f3f3;
+  background: #000000;
   border-radius: 16px;
+  border: 1px solid #ba9141;
   -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1098039216) inset;
           box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1098039216) inset;
   padding: 16px 24px;
@@ -2629,11 +2619,12 @@ html body footer .center .top .listBox .list ul li i {
   margin-right: 5px;
 }
 html body footer .center .top .listBox .list ul li p {
-  background: #1f2629;
+  background: #ffffff;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
   font-size: 18px;
+  font-weight: bold;
 }
 html body footer .center .top .listBox .list ul li p.small {
   font-size: 15px;
@@ -2654,6 +2645,7 @@ html body footer .center .top .linkBox {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background: #000000;
   padding: 20px 0;
   -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -2670,6 +2662,9 @@ html body footer .center .top .linkBox button {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 18px;
+  background: #000000;
+  border: 1px solid #ba9141;
+  color: #ba9141;
 }
 html body footer .center .top .linkBox button:hover, html body footer .center .top .linkBox button:active, html body footer .center .top .linkBox button.active {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
@@ -2682,6 +2677,7 @@ html body footer .center .top .linkBox iframe {
   background: linear-gradient(to top, #ebebeb 0%, #ffffff 100%);
   border-radius: 30px;
   border: solid 1px #b74f4f;
+  background: #000000;
 }
 html body footer .center .top .linkBox iframe:hover, html body footer .center .top .linkBox iframe:active, html body footer .center .top .linkBox iframe.active {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
@@ -2712,7 +2708,7 @@ html body footer .center .separateBox p {
 html body footer .center .separateBox .line {
   width: 100%;
   height: 3px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body footer .center .separateBox .star {
   width: 112px;
@@ -4435,7 +4431,7 @@ html body .gameWrap .content .marqueeWrap {
 html body .gameWrap .content .marqueeWrap .marquee {
   width: 100%;
   height: 52px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1725490196) inset;
@@ -4479,7 +4475,7 @@ html body .gameWrap .content .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .gameWrap .content .marqueeWrap .marquee .textBox p {
-  color: #b37d1f;
+  color: #66E123;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -4699,7 +4695,7 @@ html body .gameWrap .content .gameBox li div i {
 }
 html body .gameWrap .content .gameBox li p {
   width: 100%;
-  color: #ba9141;
+  color: #66E123;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -4830,7 +4826,7 @@ html body .eventWrap .content .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .eventWrap .content .marqueeWrap .marquee .textBox p {
-  color: #b37d1f;
+  color: #66E123;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -5122,7 +5118,7 @@ html body .innerPage .center .banner .marqueeWrap {
 html body .innerPage .center .banner .marqueeWrap .marquee {
   width: 100%;
   height: 45px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1725490196) inset;
@@ -5170,7 +5166,7 @@ html body .innerPage .center .banner .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .innerPage .center .banner .marqueeWrap .marquee .textBox p {
-  color: #b37d1f;
+  color: #66E123;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -5333,6 +5329,7 @@ html body .innerPage .center .innerMainWrap {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2588235294) inset;
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2588235294) inset;
   padding: 90px 24px 24px;
+  background: #000000;
   margin-bottom: 42px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5352,7 +5349,7 @@ html body .innerPage .center .innerMainWrap .leftSide .line_long {
   width: 5px;
   height: auto;
   min-height: 600px;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
   position: relative;
 }
@@ -5387,7 +5384,7 @@ html body .innerPage .center .innerMainWrap .leftSide .line_long div:last-child 
 html body .innerPage .center .innerMainWrap .leftSide .line_long div .line_short {
   width: 5px;
   height: 9px;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
 }
 html body .innerPage .center .innerMainWrap .leftSide .line_long div .star_ic {
@@ -5463,6 +5460,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .memberInfo {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5504,7 +5502,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .memberInfo .box .
   color: #00980c;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .memberInfo .box .row .remind {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
 }
@@ -5611,7 +5609,8 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border-top: solid 5px #c30505;
+  background: #000000;
+  border-top: solid 5px #b8151a;
   border-radius: 0 0 16px 16px;
   display: none;
 }
@@ -6411,7 +6410,7 @@ html body .innerPage .center .innerMainWrap .rightSide.vip .remindBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border: none;
+  background: #000000;
   padding: 12px 40px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip .remindBox .title {
@@ -6429,7 +6428,7 @@ html body .innerPage .center .innerMainWrap .rightSide.vip .remindBox .box {
   height: auto;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip .remindBox .box p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
@@ -6454,6 +6453,7 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: #000000;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box {
@@ -6619,7 +6619,7 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .remindBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border: none;
+  background: #000000;
   padding: 12px 40px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .remindBox .title {
@@ -6644,7 +6644,7 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .remindBox .box {
   height: auto;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .remindBox .box p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
@@ -6854,6 +6854,7 @@ html body .innerPage .center .innerMainWrap .rightSide.card .applyBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7015,7 +7016,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border-top: solid 5px #c30505;
+  border-top: solid 5px #b8151a;
   border-radius: 0 0 16px 16px;
   display: none;
 }
@@ -7188,6 +7189,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox {
   width: 100%;
   height: auto;
+  background: #000000;
   padding: 24px 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table {
@@ -7699,6 +7701,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox {
   width: 100%;
   height: auto;
+  background: #000000;
   padding: 24px 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable {
@@ -8086,7 +8089,8 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border-top: solid 5px #c30505;
+  background: #000000;
+  border-top: solid 5px #b8151a;
   border-radius: 0 0 16px 16px;
   padding: 24px;
   display: none;
@@ -8404,6 +8408,7 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBo
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox {
   width: 100%;
   height: auto;
+  background: #000000;
   padding: 24px 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox table {
@@ -8675,6 +8680,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .bigBtnBox button:la
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox {
   width: 100%;
   height: auto;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList {
   width: 100%;
@@ -8732,7 +8738,8 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border-top: solid 5px #c30505;
+  background: #000000;
+  border-top: solid 5px #b8151a;
   border-radius: 0 0 16px 16px;
   position: relative;
   padding: 16px 24px;
@@ -9371,7 +9378,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
-  border-top: solid 5px #c30505;
+  border-top: solid 5px #b8151a;
   border-radius: 0 0 16px 16px;
   display: none;
 }
@@ -9508,6 +9515,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox 
   width: 100%;
   height: auto;
   min-height: 400px;
+  background: #000000;
   padding: 24px 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner {
@@ -9926,6 +9934,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  background: #000000;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -10066,6 +10075,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   border: none;
   padding: 16px 48px 24px;
 }
@@ -10097,7 +10107,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .small
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .smallTitle .line {
   width: 100%;
   height: 2px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .content {
   width: 100%;
@@ -10108,7 +10118,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .conte
   margin: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .content p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -10319,6 +10329,7 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox {
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10763,6 +10774,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10879,6 +10891,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
   border: solid 1px #daaf6d;
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
+  background: #000000;
   border: none;
   padding: 16px 48px 24px;
 }
@@ -10910,7 +10923,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .smallTitle .line {
   width: 100%;
   height: 2px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .content {
   width: 100%;
@@ -10921,7 +10934,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
   margin: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .content p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -10966,7 +10979,7 @@ html body .innerPage .center .innerMainWrap .rightSide .title p {
 html body .innerPage .center .innerMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title .star_ic {
   width: 112px;
@@ -10992,7 +11005,7 @@ html body .help .center .marqueeWrap {
 html body .help .center .marqueeWrap .marquee {
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1725490196) inset;
@@ -11040,7 +11053,7 @@ html body .help .center .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .help .center .marqueeWrap .marquee .textBox p {
-  color: #b37d1f;
+  color: #66E123;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -11067,6 +11080,7 @@ html body .help .center .helpMainWrap {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2588235294) inset;
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2588235294) inset;
   padding: 90px 24px 24px;
+  background: #000000;
   padding: 70px 24px 24px;
   margin-bottom: 42px;
   display: -webkit-box;
@@ -11087,7 +11101,7 @@ html body .help .center .helpMainWrap .leftSide .line_long {
   width: 5px;
   height: auto;
   min-height: 600px;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
   position: relative;
 }
@@ -11122,7 +11136,7 @@ html body .help .center .helpMainWrap .leftSide .line_long div:last-child {
 html body .help .center .helpMainWrap .leftSide .line_long div .line_short {
   width: 5px;
   height: 9px;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
 }
 html body .help .center .helpMainWrap .leftSide .line_long div .star_ic {
@@ -11253,7 +11267,7 @@ html body .help .center .helpMainWrap .rightSide .title p {
 html body .help .center .helpMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .help .center .helpMainWrap .rightSide .title .star_ic {
   width: 112px;
@@ -11383,6 +11397,7 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .textBox {
   -webkit-box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.2862745098);
   overflow: hidden;
+  background: #000000;
   padding: 24px;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox:active, html body .help .center .helpMainWrap .rightSide .helpInfo .textBox.active {
@@ -11398,7 +11413,7 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .textBox h2:first-chi
   margin-top: 0;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -12279,7 +12294,7 @@ html body .agentHelp .lineTitle p {
 html body .agentHelp .lineTitle .line {
   width: 100%;
   height: 2px;
-  background: #c30505;
+  background: #b8151a;
 }
 html body .agentHelp .lineTitle .star_ic {
   width: 112px;
@@ -12338,7 +12353,7 @@ html body .agentHelp .center .leftSide {
 html body .agentHelp .center .leftSide .line_long {
   width: 5px;
   height: auto;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
   position: relative;
 }
@@ -12373,7 +12388,7 @@ html body .agentHelp .center .leftSide .line_long div:last-child {
 html body .agentHelp .center .leftSide .line_long div .line_short {
   width: 5px;
   height: 9px;
-  background: #c30505;
+  background: #b8151a;
   border-radius: 10px;
 }
 html body .agentHelp .center .leftSide .line_long div .star_ic {

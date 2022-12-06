@@ -27,7 +27,7 @@
                 .marquee {
                     width: 100%;
                     height: 45px;
-                    background: $marquee_BG;
+                    background: $BG_Color;
                     border: solid 1px $marquee_Border;
                     border-radius: 30px;
                     box-shadow: 0 2px 5px 0 $marquee_Shadow inset;
@@ -194,6 +194,7 @@
             width: 100%;
             height: auto;
             @include innerPageWrapBG;
+            background: $BG_Color;
             margin-bottom: 42px;
             display: flex;
 
@@ -298,6 +299,7 @@
                         width: 100%;
                         height: 164px;
                         @include innerBG_2;
+                        background: $BG_Color;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -336,7 +338,7 @@
                                 }
 
                                 .remind {
-                                    color: $mainFont_3;
+                                    color: $mainFont_4;
                                     font-size: 14px;
                                     font-weight: bold;
                                 }
@@ -455,6 +457,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
+                        background: $BG_Color;
                         border-top: solid 5px $line;
                         border-radius: 0 0 16px 16px;
                         display: none;
@@ -1219,7 +1222,8 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
-                        border: none;
+                        background: $BG_Color;
+                        // border: none;
                         padding: 12px 40px;
 
                         .title {
@@ -1240,7 +1244,7 @@
                             height: auto;
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 14px;
                                 font-weight: bold;
                                 line-height: 18px;
@@ -1267,6 +1271,7 @@
                         width: 100%;
                         height: 306px;
                         @include innerBG_1;
+                        background: $BG_Color;
                         margin-bottom: 20px;
 
                         .box {
@@ -1388,7 +1393,8 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
-                        border: none;
+                        background: $BG_Color;
+                        // border: none;
                         padding: 12px 40px;
 
                         .title {
@@ -1417,7 +1423,7 @@
                             height: auto;
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 14px;
                                 font-weight: bold;
                                 line-height: 18px;
@@ -1590,6 +1596,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
+                        background: $BG_Color;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -1828,6 +1835,7 @@
                             .downBox {
                                 width: 100%;
                                 height: auto;
+                                background: $BG_Color;
                                 padding: 24px 16px;
     
                                 table {
@@ -2262,6 +2270,7 @@
                         .downBox {
                             width: 100%;
                             height: auto;
+                            background: $BG_Color;
                             padding: 24px 16px;
 
                             .fakeTable {
@@ -2649,6 +2658,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
+                        background: $BG_Color;
                         border-top: solid 5px $line;
                         border-radius: 0 0 16px 16px;
                         padding: 24px;
@@ -2908,6 +2918,7 @@
                         .downBox {
                             width: 100%;
                             height: auto;
+                            background: $BG_Color;
                             padding: 24px 16px;
 
                             table {
@@ -3166,6 +3177,7 @@
                     .mailBox {
                         width: 100%;
                         height: auto;
+                        background: $BG_Color;
 
                         //topList
                         .topList {
@@ -3218,6 +3230,7 @@
                             height: auto;
                             min-height: 530px;
                             @include innerBG_2;
+                            background: $BG_Color;
                             border-top: solid 5px $line;
                             border-radius: 0 0 16px 16px; 
                             position: relative;
@@ -3789,6 +3802,7 @@
                             width: 100%;
                             height: auto;
                             min-height: 400px;
+                            background: $BG_Color;
                             padding: 24px 16px;
 
                             .partner {
@@ -4162,6 +4176,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_1;
+                        background: $BG_Color;
                         display: flex;
                         flex-direction: column;
                         align-items: center;
@@ -4255,6 +4270,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
+                        background: $BG_Color;
                         border: none;
                         padding: 16px 48px 24px;
 
@@ -4296,7 +4312,7 @@
                             }
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 16px;
                                 font-weight: bold;
                                 line-height: 24px;
@@ -4482,6 +4498,7 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
+                        background: $BG_Color;
                         position: relative;
                         display: flex;
                         flex-direction: column;
@@ -4798,6 +4815,7 @@
                             width: 100%;
                             height: auto;
                             @include innerBG_2;
+                            background: $BG_Color;
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -4869,6 +4887,7 @@
                             width: 100%;
                             height: auto;
                             @include innerBG_2;
+                            background: $BG_Color;
                             border: none;
                             padding: 16px 48px 24px;
 
@@ -4910,7 +4929,7 @@
                                 }
 
                                 p {
-                                    color: $mainFont_3;
+                                    color: $mainFont_4;
                                     font-size: 16px;
                                     font-weight: bold;
                                     line-height: 24px;
