@@ -3338,6 +3338,10 @@ html body .filter .jumpWindow.betWindow .bottom .inputBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -3347,6 +3351,7 @@ html body .filter .jumpWindow.betWindow .top .inputBox input,
 html body .filter .jumpWindow.betWindow .bottom .inputBox input {
   width: 300px;
   height: 42px;
+  margin: 0 auto;
   background: #ffffff;
   border: solid 1px #daaf6d;
   border-radius: 5px;
@@ -3372,6 +3377,49 @@ html body .filter .jumpWindow.betWindow .top .inputBox input::-ms-input-placehol
 html body .filter .jumpWindow.betWindow .top .inputBox input::placeholder,
 html body .filter .jumpWindow.betWindow .bottom .inputBox input::placeholder {
   color: #b08a48;
+}
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+}
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #ffffff), to(#ededed));
+  background: linear-gradient(to bottom, #ffffff 34%, #ededed 100%);
+  border-radius: 3px;
+  border: solid 1px #b8151a;
+  color: #b8151a;
+  font-size: 16px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:hover, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:active, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button.active,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:hover,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:active,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button.active {
+  background: -webkit-gradient(linear, left top, left bottom, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:last-child,
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:last-child {
+  margin-right: 0;
 }
 html body .filter .jumpWindow.betWindow .top .amount,
 html body .filter .jumpWindow.betWindow .bottom .amount {
@@ -4644,7 +4692,7 @@ html body .gameWrap .content .gameBox li:hover div .mask, html body .gameWrap .c
 html body .gameWrap .content .gameBox li div {
   width: 100%;
   height: auto;
-  border-radius: 16px;
+  border-radius: 50px;
   font-size: 0;
   position: relative;
   overflow: hidden;
@@ -4723,6 +4771,9 @@ html body .gameWrap .content .gameBox li span::before {
   border-style: solid;
   border-width: 0 0 23px 12px;
   border-color: rgba(255, 255, 255, 0.7803921569) transparent;
+}
+html body .gameWrap .content .gameBox li.callSport i {
+  left: 25px;
 }
 html body .eventWrap {
   width: 100%;
