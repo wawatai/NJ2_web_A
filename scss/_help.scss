@@ -54,7 +54,7 @@
                         font-weight: bold;
                         white-space: nowrap;
                         padding-left: 100%;
-                        animation: marquee 5s linear 0s infinite;
+                        animation: marquee 8s linear 0s infinite;
                     }
                 }
 
@@ -221,7 +221,7 @@
                     }
 
                     p {
-                        color: $mainFont_1;
+                        color: $mainFont_1-1;
                         font-size: 16px;
                         font-weight: bold;
                         flex-shrink: 0;
@@ -231,7 +231,7 @@
                     .line {
                         width: 100%;
                         height: 2px;
-                        background: $line;
+                        background: $mainFont_1-1;
                     }
 
                     .star_ic {

@@ -2367,8 +2367,8 @@ html body .mainWrap .center .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 8s linear 0s infinite;
+          animation: marquee 8s linear 0s infinite;
 }
 @-webkit-keyframes marquee {
   0% {
@@ -2487,7 +2487,7 @@ html body .mainWrap .center .typeList .typeBox .title p {
 html body .mainWrap .center .typeList .typeBox .title .line {
   width: 100%;
   height: 3px;
-  background: #b8151a;
+  background: #66E123;
 }
 html body .mainWrap .center .typeList .typeBox .title .star {
   width: 112px;
@@ -4528,8 +4528,8 @@ html body .gameWrap .content .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 8s linear 0s infinite;
+          animation: marquee 8s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -4833,7 +4833,7 @@ html body .eventWrap .content .marqueeWrap {
 html body .eventWrap .content .marqueeWrap .marquee {
   width: 100%;
   height: 52px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 30px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1725490196) inset;
@@ -4882,8 +4882,8 @@ html body .eventWrap .content .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 8s linear 0s infinite;
+          animation: marquee 8s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -5222,8 +5222,8 @@ html body .innerPage .center .banner .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 8s linear 0s infinite;
+          animation: marquee 8s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -11020,7 +11020,7 @@ html body .innerPage .center .innerMainWrap .rightSide .title .smallStar_ic {
       flex-shrink: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title p {
-  color: #b8151a;
+  color: #66E123;
   font-size: 16px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -11030,7 +11030,7 @@ html body .innerPage .center .innerMainWrap .rightSide .title p {
 html body .innerPage .center .innerMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #b8151a;
+  background: #66E123;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title .star_ic {
   width: 112px;
@@ -11109,8 +11109,8 @@ html body .help .center .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 8s linear 0s infinite;
+          animation: marquee 8s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -11308,7 +11308,7 @@ html body .help .center .helpMainWrap .rightSide .title .smallStar_ic {
       flex-shrink: 0;
 }
 html body .help .center .helpMainWrap .rightSide .title p {
-  color: #b8151a;
+  color: #66E123;
   font-size: 16px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -11318,7 +11318,7 @@ html body .help .center .helpMainWrap .rightSide .title p {
 html body .help .center .helpMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #b8151a;
+  background: #66E123;
 }
 html body .help .center .helpMainWrap .rightSide .title .star_ic {
   width: 112px;
