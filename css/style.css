@@ -1481,13 +1481,16 @@ html body header .top .user.alLogin li:not(.platform) {
 html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button {
   width: 45px;
   height: 45px;
-  background: #DD2830;
+  background: #c9a76c;
   border-radius: 50%;
   color: #ffffff;
 }
 html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button.active, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button.active, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button.active {
-  background: #c9a76c;
+  background: #DD2830;
   color: #ffffff;
+}
+html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button {
+  background: #DD2830;
 }
 html body header .top .user.alLogin li:not(.platform) button {
   width: auto;

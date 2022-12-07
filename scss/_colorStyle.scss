@@ -29,12 +29,12 @@ $header_langBorder: #daaf6d;
 $header_langBtn: #e5bb85;
 $loginBTN: #DD2830;
 @mixin headerBtn_3 {
-    background: #DD2830;
+    background: #c9a76c;
     border-radius: 50%;
     color: #ffffff;
 
     &:hover,&:active,&.active {
-        background: #c9a76c;
+        background:#DD2830;
         color: #ffffff;
     }
 }
