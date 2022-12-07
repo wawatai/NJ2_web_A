@@ -1492,6 +1492,9 @@ html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button:hove
 html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button {
   background: #DD2830;
 }
+html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button.active {
+  background: #c9a76c;
+}
 html body header .top .user.alLogin li:not(.platform) button {
   width: auto;
   height: auto;

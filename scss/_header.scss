@@ -151,6 +151,10 @@ header {
                     &:nth-of-type(4){
                         button {
                             background: $loginBTN;
+
+                            &:hover,&:active,&.active {
+                                background: $headerMoneyList_Border;
+                            }
                         }
                     }
 
