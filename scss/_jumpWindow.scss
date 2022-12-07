@@ -211,7 +211,7 @@
     
                             p {
                                 width: 100%;
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 18px;
                                 font-weight: bold;
                                 @include textHidden;
@@ -240,7 +240,7 @@
                 text-align: center;
 
                 p {
-                    color: $mainFont_3;
+                    color: $mainFont_4;
                     font-size: 16px;
                     font-weight: bold;
                     letter-spacing: 1px;
@@ -250,7 +250,7 @@
             button {
                 width: 216px;
                 height: 42px;
-                @include mainBtn;
+                @include newredBtn;
                 display: block;
                 margin: 0 auto;
             }
@@ -285,15 +285,14 @@
                 display: block;
             }
 
-            .top,
-            .bottom {
+            .top {
                 width: 100%;
                 height: auto;
                 border-bottom: solid 3px $jumpWindow_Border;
                 padding: 20px 0;
 
                 .smallTitle {
-                    color: $mainFont_2;
+                    color: $mainFont_4;
                     font-size: 16px;
                     font-weight: bold;
                     margin-bottom: 16px;
@@ -367,6 +366,105 @@
 
                 .amount {
                     width: 100%;
+                    color: $mainFont_4;
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin-bottom: 8px;
+                }
+
+                button {
+                    width: 257px;
+                    height: 42px;
+                    @include newredBtn;
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+
+            .bottom {
+                width: 100%;
+                height: auto;
+                border-bottom: solid 3px $jumpWindow_Border;
+                padding: 20px 0;
+
+                .smallTitle {
+                    color: $jumpWindow_smallTitle;
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-bottom: 16px;
+                    text-align: center;
+                }
+
+                .selectBox {
+                    width: 100%;
+                    height: auto;
+                    margin: 0 auto 8px;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    select {
+                        width: 300px;
+                        height: 42px;
+                        @include mainSelect;
+                    }
+
+                    i {
+                        position: absolute;
+                        right: 52px;
+                        width: 9px;
+                        height: 16px;
+                        pointer-events: none;
+                        transform: rotate(-90deg);
+                    }
+
+                    .money {
+                        color: $mainFont_5;
+                        font-size: 14px;
+                        font-weight: bold;
+                        position: absolute;
+                        right: 75px;
+                    }
+                }
+
+                .inputBox {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-bottom: 16px;
+
+                    input {
+                        width: 300px;
+                        height: 42px;
+                        margin: 0 auto;
+                        @include mainInput;
+
+                        
+                    }
+                    .BtnArea {
+                        width: 300px;
+                        height: auto;
+                        display: flex;
+                        margin: 10px auto;
+
+                        button {
+                            @include moneyBtn;
+                            border-radius: 5px;
+                            margin-right: 5px;
+
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+
+                .amount {
+                    width: 100%;
                     color: $mainFont_1;
                     font-size: 18px;
                     font-weight: bold;
@@ -377,7 +475,7 @@
                 button {
                     width: 257px;
                     height: 42px;
-                    @include mainBtn;
+                    @include newredBtn;
                     display: block;
                     margin: 0 auto;
                 }
@@ -392,7 +490,7 @@
                 button {
                     width: 257px;
                     height: 42px;
-                    @include mainBtn;
+                    @include newredBtn;
                     margin-bottom: 16px;
                 }
 
@@ -411,7 +509,7 @@
                     }
 
                     p {
-                        color: $mainFont_3;
+                        color: $mainFont_4;
                         font-size: 16px;
                         font-weight: bold;
                     }

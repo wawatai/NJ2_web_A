@@ -1481,12 +1481,12 @@ html body header .top .user.alLogin li:not(.platform) {
 html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button {
   width: 45px;
   height: 45px;
-  background: #c9a76c;
+  background: #DD2830;
   border-radius: 50%;
   color: #ffffff;
 }
 html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(3) button.active, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(4) button.active, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button:hover, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button:active, html body header .top .user.alLogin li:not(.platform):nth-of-type(5) button.active {
-  background: #b8151a;
+  background: #c9a76c;
   color: #ffffff;
 }
 html body header .top .user.alLogin li:not(.platform) button {
@@ -1539,7 +1539,7 @@ html body header .top .user.alLogin li:not(.platform).lv span {
 html body header .top .user.alLogin li:not(.platform).moneyTotal .total {
   width: auto;
   height: auto;
-  color: #b8151a;
+  color: #DD2830;
   font-size: 16px;
   font-weight: bold;
   position: relative;
@@ -2938,9 +2938,9 @@ html body .filter.display {
 html body .filter .jumpWindow {
   width: auto;
   height: auto;
-  background: #f9f9f9;
+  background: #000000;
   border-radius: 16px;
-  border: solid 1px #b8151a;
+  border: solid 1px #daaf6d;
   padding: 0 18px;
 }
 html body .filter .jumpWindow.forgetPassword {
@@ -2966,7 +2966,7 @@ html body .filter .jumpWindow.forgetPassword form {
 html body .filter .jumpWindow.forgetPassword form input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -2978,19 +2978,19 @@ html body .filter .jumpWindow.forgetPassword form input {
   margin-bottom: 16px;
 }
 html body .filter .jumpWindow.forgetPassword form input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.forgetPassword form input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.forgetPassword form input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.forgetPassword form input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.forgetPassword form input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.forgetPassword form button {
   width: 216px;
@@ -3116,8 +3116,7 @@ html body .filter .jumpWindow.news .box::-webkit-scrollbar-track, html body .fil
 html body .filter .jumpWindow.news .box .infoBox, html body .filter .jumpWindow.rules .box .infoBox {
   width: 90%;
   height: 46px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#eeeeee), to(#ffffff));
-  background: linear-gradient(to top, #eeeeee 0%, #ffffff 100%);
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #b8151a;
   overflow: hidden;
@@ -3125,7 +3124,7 @@ html body .filter .jumpWindow.news .box .infoBox, html body .filter .jumpWindow.
   padding: 0 24px 0 36px;
 }
 html body .filter .jumpWindow.news .box .infoBox.active, html body .filter .jumpWindow.rules .box .infoBox.active {
-  background: #ffffff;
+  background: #000000;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
 }
@@ -3149,7 +3148,7 @@ html body .filter .jumpWindow.news .box .infoBox ul, html body .filter .jumpWind
 html body .filter .jumpWindow.news .box .infoBox ul li, html body .filter .jumpWindow.rules .box .infoBox ul li {
   width: 100%;
   height: 46px;
-  border-bottom: solid 1px #b8151a;
+  border-bottom: solid 1px #daaf6d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3163,7 +3162,7 @@ html body .filter .jumpWindow.news .box .infoBox ul li:last-child, html body .fi
   border: none;
 }
 html body .filter .jumpWindow.news .box .infoBox ul li.smallTitle, html body .filter .jumpWindow.rules .box .infoBox ul li.smallTitle {
-  border-color: #b8151a;
+  border-color: #daaf6d;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -3186,7 +3185,7 @@ html body .filter .jumpWindow.news .box .infoBox ul li.smallTitle .arrow_ic, htm
 }
 html body .filter .jumpWindow.news .box .infoBox ul li p, html body .filter .jumpWindow.rules .box .infoBox ul li p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   overflow: hidden;
@@ -3208,7 +3207,7 @@ html body .filter .jumpWindow.plsGo .content, html body .filter .jumpWindow.plsG
   text-align: center;
 }
 html body .filter .jumpWindow.plsGo .content p, html body .filter .jumpWindow.plsGo_2 .content p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -3216,8 +3215,7 @@ html body .filter .jumpWindow.plsGo .content p, html body .filter .jumpWindow.pl
 html body .filter .jumpWindow.plsGo button, html body .filter .jumpWindow.plsGo_2 button {
   width: 216px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #DD2830;
   border: none;
   border-radius: 30px;
   color: #ffffff;
@@ -3267,23 +3265,20 @@ html body .filter .jumpWindow.betWindow {
 html body .filter .jumpWindow.betWindow.display {
   display: block;
 }
-html body .filter .jumpWindow.betWindow .top,
-html body .filter .jumpWindow.betWindow .bottom {
+html body .filter .jumpWindow.betWindow .top {
   width: 100%;
   height: auto;
-  border-bottom: solid 3px #b8151a;
+  border-bottom: solid 3px #daaf6d;
   padding: 20px 0;
 }
-html body .filter .jumpWindow.betWindow .top .smallTitle,
-html body .filter .jumpWindow.betWindow .bottom .smallTitle {
-  color: #ba9141;
+html body .filter .jumpWindow.betWindow .top .smallTitle {
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   margin-bottom: 16px;
   text-align: center;
 }
-html body .filter .jumpWindow.betWindow .top .selectBox,
-html body .filter .jumpWindow.betWindow .bottom .selectBox {
+html body .filter .jumpWindow.betWindow .top .selectBox {
   width: 100%;
   height: auto;
   margin: 0 auto 8px;
@@ -3298,14 +3293,13 @@ html body .filter .jumpWindow.betWindow .bottom .selectBox {
       -ms-flex-pack: center;
           justify-content: center;
 }
-html body .filter .jumpWindow.betWindow .top .selectBox select,
-html body .filter .jumpWindow.betWindow .bottom .selectBox select {
+html body .filter .jumpWindow.betWindow .top .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -3313,8 +3307,7 @@ html body .filter .jumpWindow.betWindow .bottom .selectBox select {
      -moz-appearance: none;
           appearance: none;
 }
-html body .filter .jumpWindow.betWindow .top .selectBox i,
-html body .filter .jumpWindow.betWindow .bottom .selectBox i {
+html body .filter .jumpWindow.betWindow .top .selectBox i {
   position: absolute;
   right: 52px;
   width: 9px;
@@ -3323,16 +3316,14 @@ html body .filter .jumpWindow.betWindow .bottom .selectBox i {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-html body .filter .jumpWindow.betWindow .top .selectBox .money,
-html body .filter .jumpWindow.betWindow .bottom .selectBox .money {
+html body .filter .jumpWindow.betWindow .top .selectBox .money {
   color: #b8151a;
   font-size: 14px;
   font-weight: bold;
   position: absolute;
   right: 75px;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox,
-html body .filter .jumpWindow.betWindow .bottom .inputBox {
+html body .filter .jumpWindow.betWindow .top .inputBox {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -3347,12 +3338,11 @@ html body .filter .jumpWindow.betWindow .bottom .inputBox {
           justify-content: center;
   margin-bottom: 16px;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input,
-html body .filter .jumpWindow.betWindow .bottom .inputBox input {
+html body .filter .jumpWindow.betWindow .top .inputBox input {
   width: 300px;
   height: 42px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -3362,24 +3352,22 @@ html body .filter .jumpWindow.betWindow .bottom .inputBox input {
   font-weight: bold;
   padding-left: 16px;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input::-webkit-input-placeholder, html body .filter .jumpWindow.betWindow .bottom .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+html body .filter .jumpWindow.betWindow .top .inputBox input::-webkit-input-placeholder {
+  color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input::-moz-placeholder, html body .filter .jumpWindow.betWindow .bottom .inputBox input::-moz-placeholder {
-  color: #b08a48;
+html body .filter .jumpWindow.betWindow .top .inputBox input::-moz-placeholder {
+  color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input:-ms-input-placeholder, html body .filter .jumpWindow.betWindow .bottom .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+html body .filter .jumpWindow.betWindow .top .inputBox input:-ms-input-placeholder {
+  color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input::-ms-input-placeholder, html body .filter .jumpWindow.betWindow .bottom .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+html body .filter .jumpWindow.betWindow .top .inputBox input::-ms-input-placeholder {
+  color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox input::placeholder,
-html body .filter .jumpWindow.betWindow .bottom .inputBox input::placeholder {
-  color: #b08a48;
+html body .filter .jumpWindow.betWindow .top .inputBox input::placeholder {
+  color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea {
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea {
   width: 300px;
   height: auto;
   display: -webkit-box;
@@ -3387,13 +3375,10 @@ html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea {
   display: flex;
   margin: 10px auto;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #ffffff), to(#ededed));
-  background: linear-gradient(to bottom, #ffffff 34%, #ededed 100%);
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button {
+  background: #ffc800;
   border-radius: 3px;
-  border: solid 1px #b8151a;
-  color: #b8151a;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   display: -webkit-box;
@@ -3409,33 +3394,25 @@ html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button {
   border-radius: 5px;
   margin-right: 5px;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:hover, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:active, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button.active,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:hover,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:active,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:hover, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:active, html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button.active {
+  background: #DD2830;
   color: #ffffff;
 }
-html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:last-child,
-html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:last-child {
+html body .filter .jumpWindow.betWindow .top .inputBox .BtnArea button:last-child {
   margin-right: 0;
 }
-html body .filter .jumpWindow.betWindow .top .amount,
-html body .filter .jumpWindow.betWindow .bottom .amount {
+html body .filter .jumpWindow.betWindow .top .amount {
   width: 100%;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 8px;
 }
-html body .filter .jumpWindow.betWindow .top button,
-html body .filter .jumpWindow.betWindow .bottom button {
+html body .filter .jumpWindow.betWindow .top button {
   width: 257px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #DD2830;
   border: none;
   border-radius: 30px;
   color: #ffffff;
@@ -3445,10 +3422,168 @@ html body .filter .jumpWindow.betWindow .bottom button {
   display: block;
   margin: 0 auto;
 }
-html body .filter .jumpWindow.betWindow .top button:hover, html body .filter .jumpWindow.betWindow .top button:active, html body .filter .jumpWindow.betWindow .top button.active,
-html body .filter .jumpWindow.betWindow .bottom button:hover,
-html body .filter .jumpWindow.betWindow .bottom button:active,
-html body .filter .jumpWindow.betWindow .bottom button.active {
+html body .filter .jumpWindow.betWindow .top button:hover, html body .filter .jumpWindow.betWindow .top button:active, html body .filter .jumpWindow.betWindow .top button.active {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
+  background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
+}
+html body .filter .jumpWindow.betWindow .bottom {
+  width: 100%;
+  height: auto;
+  border-bottom: solid 3px #daaf6d;
+  padding: 20px 0;
+}
+html body .filter .jumpWindow.betWindow .bottom .smallTitle {
+  color: #DD2830;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+html body .filter .jumpWindow.betWindow .bottom .selectBox {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 8px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+html body .filter .jumpWindow.betWindow .bottom .selectBox select {
+  width: 300px;
+  height: 42px;
+  background: #000000;
+  border-radius: 5px;
+  border: solid 1px #daaf6d;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+html body .filter .jumpWindow.betWindow .bottom .selectBox i {
+  position: absolute;
+  right: 52px;
+  width: 9px;
+  height: 16px;
+  pointer-events: none;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+html body .filter .jumpWindow.betWindow .bottom .selectBox .money {
+  color: #DD2830;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  right: 75px;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 16px;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input {
+  width: 300px;
+  height: 42px;
+  margin: 0 auto;
+  background: #000000;
+  border: solid 1px #daaf6d;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 16px;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input::-moz-placeholder {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input:-ms-input-placeholder {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input::-ms-input-placeholder {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox input::placeholder {
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button {
+  background: #ffc800;
+  border-radius: 3px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:hover, html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:active, html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button.active {
+  background: #DD2830;
+  color: #ffffff;
+}
+html body .filter .jumpWindow.betWindow .bottom .inputBox .BtnArea button:last-child {
+  margin-right: 0;
+}
+html body .filter .jumpWindow.betWindow .bottom .amount {
+  width: 100%;
+  color: #b8151a;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+html body .filter .jumpWindow.betWindow .bottom button {
+  width: 257px;
+  height: 42px;
+  background: #DD2830;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0 auto;
+}
+html body .filter .jumpWindow.betWindow .bottom button:hover, html body .filter .jumpWindow.betWindow .bottom button:active, html body .filter .jumpWindow.betWindow .bottom button.active {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 }
@@ -3461,8 +3596,7 @@ html body .filter .jumpWindow.betWindow .enterGame {
 html body .filter .jumpWindow.betWindow .enterGame button {
   width: 257px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #DD2830;
   border: none;
   border-radius: 30px;
   color: #ffffff;
@@ -3519,15 +3653,14 @@ html body .filter .jumpWindow.betWindow .enterGame div input::after {
           transform: translate(-50%, -50%);
   width: 13px;
   height: 13px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  background: #DD2830;
   border-radius: 50%;
 }
 html body .filter .jumpWindow.betWindow .enterGame div input:checked::after {
   display: block;
 }
 html body .filter .jumpWindow.betWindow .enterGame div p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
 }
@@ -3751,8 +3884,8 @@ html body .filter .jumpWindow.waterRecord table, html body .filter .jumpWindow.r
   width: 100%;
   height: auto;
   background: #f1f1f1;
-  -webkit-box-shadow: 0 0 0 1px #b8151a;
-          box-shadow: 0 0 0 1px #b8151a;
+  -webkit-box-shadow: 0 0 0 1px #daaf6d;
+          box-shadow: 0 0 0 1px #daaf6d;
   border-radius: 5px;
   overflow: hidden;
   margin: 24px 0;
@@ -3765,7 +3898,7 @@ html body .filter .jumpWindow.waterRecord table tr th, html body .filter .jumpWi
   vertical-align: middle;
   background: -webkit-gradient(linear, left bottom, left top, from(#eeeeee), to(#ffffff));
   background: linear-gradient(to top, #eeeeee 0%, #ffffff 100%);
-  border-bottom: solid 1px #b8151a;
+  border-bottom: solid 1px #daaf6d;
 }
 html body .filter .jumpWindow.waterRecord table tr th:first-child, html body .filter .jumpWindow.recordWindow table tr th:first-child, html body .filter .jumpWindow.pointWindow table tr th:first-child, html body .filter .jumpWindow.pointPartner table tr th:first-child {
   padding-left: 16px;
@@ -3926,7 +4059,7 @@ html body .filter .jumpWindow.changePhone .content .inputBox {
 html body .filter .jumpWindow.changePhone .content .inputBox input {
   width: 100%;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -3937,19 +4070,19 @@ html body .filter .jumpWindow.changePhone .content .inputBox input {
   padding-left: 16px;
 }
 html body .filter .jumpWindow.changePhone .content .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePhone .content .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePhone .content .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePhone .content .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePhone .content .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePhone .content .getCode {
   width: 300px;
@@ -4017,7 +4150,7 @@ html body .filter .jumpWindow.changePassword .content .inputBox {
 html body .filter .jumpWindow.changePassword .content .inputBox input {
   width: 100%;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -4028,19 +4161,19 @@ html body .filter .jumpWindow.changePassword .content .inputBox input {
   padding-left: 16px;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox .remind {
   color: #292CFF;
@@ -4077,7 +4210,7 @@ html body .filter .jumpWindow.changePassword button:hover, html body .filter .ju
 html body .filter .jumpWindow.agentRegister {
   width: 1050px;
   height: 714px;
-  border: solid 4px #b8151a;
+  border: solid 4px #daaf6d;
   display: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -4396,7 +4529,7 @@ html body .filter .jumpWindow.agentRegister .box .bottom button:hover, html body
 html body .filter .jumpWindow .title {
   width: 100%;
   height: 75px;
-  border-bottom: solid 3px #b8151a;
+  border-bottom: solid 3px #daaf6d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4409,8 +4542,7 @@ html body .filter .jumpWindow .title {
   position: relative;
 }
 html body .filter .jumpWindow .title p {
-  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  background: #ffffff;
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
@@ -4566,7 +4698,7 @@ html body .gameWrap .content .searchWrap i {
 html body .gameWrap .content .searchWrap input {
   width: 100%;
   height: 50px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -4578,19 +4710,19 @@ html body .gameWrap .content .searchWrap input {
   border-radius: 30px;
 }
 html body .gameWrap .content .searchWrap input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .gameWrap .content .searchWrap input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .gameWrap .content .searchWrap input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .gameWrap .content .searchWrap input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .gameWrap .content .searchWrap input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .gameWrap .content .searchWrap button {
   width: 120px;
@@ -5724,7 +5856,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox 
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -5735,19 +5867,19 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox 
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox .remind {
   width: 320px;
@@ -5867,7 +5999,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox 
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -5878,19 +6010,19 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox 
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox .remind {
   width: 320px;
@@ -5997,7 +6129,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomB
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -6008,19 +6140,19 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomB
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .bottomBox .inputBox .edit_ic {
   width: 15px;
@@ -6569,7 +6701,7 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inpu
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -6580,19 +6712,19 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inpu
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox .copy_ic {
   width: 42px;
@@ -6939,10 +7071,10 @@ html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .selectBox
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -6967,7 +7099,7 @@ html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox 
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -6978,19 +7110,19 @@ html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox 
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .remind {
   color: #292CFF;
@@ -7126,10 +7258,10 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -7155,7 +7287,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -7168,19 +7300,19 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
           box-shadow: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .inputBox i {
   width: 15px;
@@ -7631,10 +7763,10 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -7659,7 +7791,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -7672,19 +7804,19 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
           box-shadow: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox i {
   width: 15px;
@@ -8345,10 +8477,10 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBo
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -8374,7 +8506,7 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBo
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -8387,19 +8519,19 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBo
           box-shadow: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .inputBox i {
   width: 15px;
@@ -8860,8 +8992,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .btnBo
           transform: translate(-50%, -50%);
   width: 13px;
   height: 13px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  background: #DD2830;
   border-radius: 50%;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .btnBox .inputBox input:checked::after {
@@ -9091,8 +9222,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post 
           transform: translate(-50%, -50%);
   width: 13px;
   height: 13px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  background: #DD2830;
   border-radius: 50%;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li input:checked::after,
@@ -9480,7 +9610,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -9493,19 +9623,19 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .
           box-shadow: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .inputBox i {
   width: 15px;
@@ -10033,10 +10163,10 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .sele
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -10061,7 +10191,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inpu
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -10072,19 +10202,19 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inpu
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .remind {
   width: 100%;
@@ -10436,10 +10566,10 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .topBo
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .topBox .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -10475,7 +10605,7 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .input
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -10486,19 +10616,19 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .input
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul {
   width: 300px;
@@ -10513,11 +10643,9 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul {
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li {
   width: auto;
   height: 32px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(34%, #ffffff), to(#ededed));
-  background: linear-gradient(to bottom, #ffffff 34%, #ededed 100%);
+  background: #ffc800;
   border-radius: 3px;
-  border: solid 1px #b8151a;
-  color: #b8151a;
+  color: #000000;
   font-size: 16px;
   font-weight: bold;
   display: -webkit-box;
@@ -10532,8 +10660,7 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li 
   cursor: pointer;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li:hover, html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li:active, html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li.active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#970707), color-stop(98%, #cf0505));
-  background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
+  background: #DD2830;
   color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .applyBox ul li:last-child {
@@ -10858,10 +10985,10 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .selectBox select {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 5px;
   border: solid 1px #daaf6d;
-  color: #b08a48;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding-left: 16px;
@@ -10887,7 +11014,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input {
   width: 300px;
   height: 42px;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #daaf6d;
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1137254902) inset;
@@ -10898,19 +11025,19 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box
   padding-left: 16px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input::-webkit-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input::-moz-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input:-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input::-ms-input-placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .inputBox input::placeholder {
-  color: #b08a48;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .remind {
   color: #292CFF;
