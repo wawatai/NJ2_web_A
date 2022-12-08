@@ -2336,8 +2336,7 @@ html body .mainWrap .center .marqueeWrap .marquee {
 html body .mainWrap .center .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #C9A76C;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4629,8 +4628,7 @@ html body .gameWrap .content .marqueeWrap .marquee {
 html body .gameWrap .content .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #C9A76C;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4983,8 +4981,7 @@ html body .eventWrap .content .marqueeWrap .marquee {
 html body .eventWrap .content .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #C9A76C;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5322,8 +5319,7 @@ html body .innerPage .center .banner .marqueeWrap .marquee {
 html body .innerPage .center .banner .marqueeWrap .marquee .title {
   width: 160px;
   height: 35px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #C9A76C;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11204,8 +11200,7 @@ html body .help .center .marqueeWrap .marquee {
 html body .help .center .marqueeWrap .marquee .title {
   width: 160px;
   height: 35px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(4%, #bc9c64), color-stop(93%, #f3d197));
-  background: linear-gradient(to top, #bc9c64 4%, #f3d197 93%);
+  background: #C9A76C;
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
