@@ -683,6 +683,22 @@ $agent_register_depositBorder: #daaf6d;
         color: #ffffff;
     }
 }
+@mixin moneyBtn02 {
+    background: #ffc800;
+    border-radius: 3px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover,&:active,&.active {
+        background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
+        color: #ffffff;
+    }
+}
 //日期按鈕
 @mixin dateBtn {
     background: linear-gradient(to bottom,#ffffff 15%,#f2f2f2 100%);
@@ -782,10 +798,10 @@ $input_disabledBG: #f0f0f0;
 
 
 @mixin mainSelect {
-    background: #ffffff;
+    background: #000000;
     border-radius: 5px;
     border: solid 1px #daaf6d;
-    color: #b08a48;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     padding-left: 16px;
@@ -853,7 +869,7 @@ $input_disabledBG: #f0f0f0;
         transform: translate(-50%,-50%);
         width: 13px;
         height: 13px;
-        background: linear-gradient(to top,#970707 0%,#cf0505 98%);
+        background: $mainDeco_color;
         border-radius: 50%;
     }
 
