@@ -4276,7 +4276,6 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
-                        border: none;
                         padding: 16px 48px 24px;
 
                         .smallTitle {
@@ -4294,7 +4293,7 @@
                             }
 
                             p {
-                                color: $mainFont_1;
+                                color: $subDeco_color;
                                 font-size: 18px;
                                 font-weight: bold;
                                 flex-shrink: 0;
@@ -4303,7 +4302,7 @@
                             .line {
                                 width: 100%;
                                 height: 2px;
-                                background: $line;
+                                background: $subDeco_color;
                             }
                         }
 
@@ -4317,7 +4316,7 @@
                             }
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 16px;
                                 font-weight: bold;
                                 line-height: 24px;
@@ -4890,7 +4889,6 @@
                             width: 100%;
                             height: auto;
                             @include innerBG_2;
-                            border: none;
                             padding: 16px 48px 24px;
 
                             .smallTitle {
@@ -4908,7 +4906,7 @@
                                 }
 
                                 p {
-                                    color: $mainFont_1;
+                                    color: $subDeco_color;
                                     font-size: 18px;
                                     font-weight: bold;
                                     flex-shrink: 0;
@@ -4917,7 +4915,7 @@
                                 .line {
                                     width: 100%;
                                     height: 2px;
-                                    background: $line;
+                                    background: $subDeco_color;
                                 }
                             }
 
@@ -4931,7 +4929,7 @@
                                 }
 
                                 p {
-                                    color: $mainFont_3;
+                                    color: $mainFont_4;
                                     font-size: 16px;
                                     font-weight: bold;
                                     line-height: 24px;
