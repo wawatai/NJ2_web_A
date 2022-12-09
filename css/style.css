@@ -2327,7 +2327,8 @@ html body .mainWrap .center .marqueeWrap .marquee {
 html body .mainWrap .center .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: #C9A76C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C9A76C), to(#DD2830));
+  background: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2363,8 +2364,8 @@ html body .mainWrap .center .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 10s linear 0s infinite;
+          animation: marquee 10s linear 0s infinite;
 }
 @-webkit-keyframes marquee {
   0% {
@@ -4477,7 +4478,8 @@ html body .gameWrap .content .marqueeWrap .marquee {
 html body .gameWrap .content .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: #C9A76C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C9A76C), to(#DD2830));
+  background: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4513,8 +4515,8 @@ html body .gameWrap .content .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 10s linear 0s infinite;
+          animation: marquee 10s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -4828,7 +4830,8 @@ html body .eventWrap .content .marqueeWrap .marquee {
 html body .eventWrap .content .marqueeWrap .marquee .title {
   width: 165px;
   height: 100%;
-  background: #C9A76C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C9A76C), to(#DD2830));
+  background: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4864,8 +4867,8 @@ html body .eventWrap .content .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 10s linear 0s infinite;
+          animation: marquee 10s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -5166,7 +5169,8 @@ html body .innerPage .center .banner .marqueeWrap .marquee {
 html body .innerPage .center .banner .marqueeWrap .marquee .title {
   width: 160px;
   height: 35px;
-  background: #C9A76C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C9A76C), to(#DD2830));
+  background: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5203,8 +5207,8 @@ html body .innerPage .center .banner .marqueeWrap .marquee .textBox p {
   font-weight: bold;
   white-space: nowrap;
   padding-left: 100%;
-  -webkit-animation: marquee 5s linear 0s infinite;
-          animation: marquee 5s linear 0s infinite;
+  -webkit-animation: marquee 10s linear 0s infinite;
+          animation: marquee 10s linear 0s infinite;
 }
 @keyframes marquee {
   0% {
@@ -11041,7 +11045,8 @@ html body .help .center .marqueeWrap .marquee {
 html body .help .center .marqueeWrap .marquee .title {
   width: 160px;
   height: 35px;
-  background: #C9A76C;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C9A76C), to(#DD2830));
+  background: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
   border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
