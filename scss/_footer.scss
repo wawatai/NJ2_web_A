@@ -1,7 +1,6 @@
 footer {
     width: 100%;
     height: auto;
-    background: $BG_Color;
     border-top: solid 1px $footer_Border;
 
     .center {
@@ -25,9 +24,8 @@ footer {
                 .list {
                     width: 220px;
                     height: 280px;
-                    background: $BG_Color;
+                    background: $footer_List_BG;
                     border-radius: 16px;
-                    border: 1px solid $mainFont_2;
                     box-shadow: 0 0 10px 1px $footer_List_Shadow inset;
                     padding: 16px 24px;
 
@@ -78,11 +76,10 @@ footer {
                             }
 
                             p {
-                                background: $mainFont_4;
+                                background: $footer_List_Word;
                                 background-clip: text;
                                 color: transparent;
                                 font-size: 18px;
-                                font-weight: bold;
 
                                 &.small {
                                     font-size: 15px;
@@ -100,7 +97,6 @@ footer {
                 flex-direction: column;
                 align-items: center;
                 justify-content: space-between;
-                background: $BG_Color;
                 padding: 20px 0;
                 flex-shrink: 0;
 
@@ -109,16 +105,12 @@ footer {
                     height: 54px;
                     @include mainBtn;
                     font-size: 18px;
-                    background: $BG_Color;
-                    border: 1px solid $mainFont_2;
-                    color: $mainFont_2;
                 }
 
                 iframe {
                     width: 200px;
                     height: 54px;
                     @include footerBtn_2;
-                    background: $BG_Color;
                 }
 
                 a {

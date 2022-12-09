@@ -1,13 +1,7 @@
-//被景色
-$BG_Color: #000000;
-
 //主字色
 $mainFont_1: #b8151a;
-$mainFont_1-1: #66E123;
 $mainFont_2: #ba9141;
 $mainFont_3: #3a3a3a;
-$mainFont_4: #ffffff;
-$mainFont_5: #DD2830;
 
 //提醒字色
 $remind: #292CFF;
@@ -23,23 +17,22 @@ $mainLinear_Word: #ffffff;
 $header_BG_1: #ffffff;
 $header_Color1: #5a6569;
 $header_Color2: #daaf6d;
-$header_mainColor: #DD2830;
+$header_mainColor: #b8151a;
 $header_mainColor_Active: #c9a567;
 $header_langBorder: #daaf6d;
 $header_langBtn: #e5bb85;
-$loginBTN: #DD2830;
 @mixin headerBtn_3 {
     background: #c9a76c;
     border-radius: 50%;
     color: #ffffff;
 
     &:hover,&:active,&.active {
-        background:#DD2830;
+        background: #b8151a;
         color: #ffffff;
     }
 }
 @mixin headerLang {
-    background: #000000;
+    background: #ffffff;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
@@ -69,21 +62,21 @@ $loginBTN: #DD2830;
     }
 }
 @mixin headerInput {
-    background: #000000;
+    background: #ffffff;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
-    color: #ffffff;
+    color: #b11319;
     font-size: 16px;
     font-weight: bold;
     padding: 0 5px 0 12px;
 
     &::placeholder {
-        color: #ffffff;
+        color: #b11319;
     }
 }
 @mixin headerMoney {
-    color: #DD2830;
+    color: #b8151a;
     font-size: 16px;
     font-weight: bold;
     position: relative;
@@ -133,13 +126,13 @@ $headerNav_agentHover: #b8151a;
 //marquee
 $marquee_BG: #ffffff;
 $marquee_Border: #daaf6d;
-$marquee_Linear: #C9A76C;
+$marquee_Linear: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
 $marquee_Linear_Word: #ffffff;
 $marquee_Shadow: #0000002c;
-$marquee_Word: $mainFont_1-1;
+$marquee_Word: #b37d1f;
 
 //mainWrap
-$line: $mainFont_1;
+$line: #c30505;
 @mixin pageBtn {
     background: #00000033;
     border-radius: 50%;
@@ -556,19 +549,17 @@ $page_ActiveBG: #b8151a;
 $filter: #0000009e;
 
 //彈窗色
-$jumpWindow_Title: #ffffff;
-$jumpWindow_smallTitle: #DD2830;
-$jumpWindow_BG: #000000;
-$jumpWindow_Border: #daaf6d;
+$jumpWindow_Title: linear-gradient(to top,#970707 0%,#cf0505 98%);
+$jumpWindow_BG: #f9f9f9;
+$jumpWindow_Border: #b8151a;
 @mixin newsBox {
-    // background: linear-gradient(to top,#eeeeee 0%,#ffffff 100%);
-    background: #000000;
+    background: linear-gradient(to top,#eeeeee 0%,#ffffff 100%);
     border-radius: 5px;
-    border: solid 1px #daaf6d;
+    border: solid 1px #b8151a;
     overflow: hidden;
 
     &.active {
-        background: #000000;
+        background: #ffffff;
         box-shadow: 0 2px 5px 0 #0000001d inset;
     }
 }
@@ -669,10 +660,10 @@ $agent_register_depositBorder: #daaf6d;
 }
 //轉帳用錢按鈕
 @mixin moneyBtn {
-    background: #ffc800;
+    background: linear-gradient(to bottom,#ffffff 34%,#ededed 100%);
     border-radius: 3px;
-    // border: solid 1px #b8151a;
-    color: #000000;
+    border: solid 1px #b8151a;
+    color: #b8151a;
     font-size: 16px;
     font-weight: bold;
     display: flex;
@@ -681,7 +672,7 @@ $agent_register_depositBorder: #daaf6d;
     cursor: pointer;
 
     &:hover,&:active,&.active {
-        background: #DD2830;
+        background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
         color: #ffffff;
     }
 }
@@ -737,28 +728,13 @@ button:disabled {
     pointer-events: none !important;
 }
 
-//新紅按鈕
-@mixin newredBtn { 
-    background: #DD2830;
-    border: none;
-    border-radius: 30px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 1px;
-
-    &:hover,&:active,&.active {
-        background: linear-gradient(to bottom,#bc9c64 4%,#f3d197 93%);
-    }
-
-}
 
 //input
 
 
 //最常用input
 @mixin mainInput {
-    background: #000000;
+    background: #ffffff;
     border: solid 1px #daaf6d;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 #0000001d inset;
@@ -768,7 +744,7 @@ button:disabled {
     padding-left: 16px;
 
     &::placeholder {
-        color: #ffffff;
+        color: #b08a48;
     }
 }
 @mixin registerInput {
@@ -799,10 +775,10 @@ $input_disabledBG: #f0f0f0;
 
 
 @mixin mainSelect {
-    background: #000000;
+    background: #ffffff;
     border-radius: 5px;
     border: solid 1px #daaf6d;
-    color: #ffffff;
+    color: #b08a48;
     font-size: 14px;
     font-weight: bold;
     padding-left: 16px;
@@ -870,7 +846,7 @@ $input_disabledBG: #f0f0f0;
         transform: translate(-50%,-50%);
         width: 13px;
         height: 13px;
-        background: #DD2830;
+        background: linear-gradient(to top,#970707 0%,#cf0505 98%);
         border-radius: 50%;
     }
 

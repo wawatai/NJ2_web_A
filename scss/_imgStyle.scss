@@ -1,16 +1,16 @@
 //bg
-// .bg {
-//     background: url('../images/bg.jpg') top center;
-//     background-size: 100%;
-// }
-// .bg.game {
-//     background: url('../images/gameBG.jpg') top center;
-//     background-size: 100%;
-// }
-// .bg.inner {
-//     background: url("../images/innerBG.jpg") no-repeat top center;
-//     background-size: 100%;
-// }
+.bg {
+    background: url('../images/bg.jpg') top center;
+    background-size: 100%;
+}
+.bg.game {
+    background: url('../images/gameBG.jpg') top center;
+    background-size: 100%;
+}
+.bg.inner {
+    background: url("../images/innerBG.jpg") no-repeat top center;
+    background-size: 100%;
+}
 .registerBG {
     background: url('../images/registerBG.jpg') no-repeat top center;
 }
@@ -927,7 +927,7 @@ footer .qs {
 
 //logo
 header .logo {
-    height: 60px;
+    height: 70px;
     object-fit: contain;
 }
 
