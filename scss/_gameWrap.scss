@@ -125,6 +125,7 @@
                 width: 120px;
                 height: 50px;
                 @include secondBtn;
+                background: $footer_List_Active;
                 margin-left: 12px;
             }
         }
@@ -254,7 +255,7 @@
 
                 p {
                     width: 100%;
-                    color: $mainFont_2;
+                    color: $subDeco_color;
                     font-size: 18px;
                     font-weight: bold;
                     text-align: center;

@@ -336,7 +336,7 @@
                                 }
 
                                 .remind {
-                                    color: $mainFont_3;
+                                    color: $mainFont_4;
                                     font-size: 14px;
                                     font-weight: bold;
                                 }
@@ -1219,7 +1219,6 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
-                        border: none;
                         padding: 12px 40px;
 
                         .title {
@@ -1240,7 +1239,7 @@
                             height: auto;
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 14px;
                                 font-weight: bold;
                                 line-height: 18px;
@@ -1388,7 +1387,6 @@
                         width: 100%;
                         height: auto;
                         @include innerBG_2;
-                        border: none;
                         padding: 12px 40px;
 
                         .title {
@@ -1417,7 +1415,7 @@
                             height: auto;
 
                             p {
-                                color: $mainFont_3;
+                                color: $mainFont_4;
                                 font-size: 14px;
                                 font-weight: bold;
                                 line-height: 18px;
@@ -1821,7 +1819,12 @@
                                     width: 150px;
                                     height: 42px;
                                     @include secondBtn;
+                                    background: $deposit_depList_nameLinearActive;
                                     margin-top: 15px;
+
+                                    &:hover,&:active,&.active {
+                                        background: $subDeco_color;
+                                    }
                                 }
                             }
                             
@@ -2255,7 +2258,12 @@
                                 width: 150px;
                                 height: 42px;
                                 @include secondBtn;
+                                background: $deposit_depList_nameLinearActive;
                                 margin-top: 20px;
+
+                                &:hover,&:active,&.active {
+                                    background: $subDeco_color;
+                                }
                             }
                         }
 
@@ -2786,14 +2794,22 @@
 
                                     &:last-child {
                                         width: 135px;
-                                        @include secondBtn;
+                                        @include mainBtn;
                                         margin-left: 15px;
+
+                                        &:hover,&:active,&.active {
+                                            background: $deposit_depList_nameLinearActive;
+                                        }
                                     }
 
                                     &:first-child {
                                         width: 220px;
-                                        @include mainBtn;
+                                        @include  helpLeftList_innerBtn;
                                         margin: 0;
+
+                                        &:hover,&:active,&.active {
+                                            background: $deposit_depList_nameLinear;
+                                        }
                                     }
                                 }
                             }
@@ -3781,7 +3797,12 @@
                                 width: 150px;
                                 height: 42px;
                                 @include secondBtn;
+                                background: $deposit_depList_nameLinearActive;
                                 margin-top: 15px;
+
+                                &:hover,&:active,&.active {
+                                    background: $subDeco_color;
+                                }
                             }
                         }
                         
@@ -4951,7 +4972,7 @@
                     }
 
                     p {
-                        color: $mainFont_1;
+                        color: $subDeco_color;
                         font-size: 16px;
                         font-weight: bold;
                         flex-shrink: 0;
@@ -4961,7 +4982,7 @@
                     .line {
                         width: 100%;
                         height: 2px;
-                        background: $line;
+                        background: $subDeco_color;;
                     }
 
                     .star_ic {

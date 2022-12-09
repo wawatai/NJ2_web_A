@@ -1,7 +1,13 @@
+//主背景色
+$mainColor: #000000;
+$mainDeco_color: #DD2830;
+$subDeco_color: #66E123;
+
 //主字色
 $mainFont_1: #b8151a;
 $mainFont_2: #ba9141;
 $mainFont_3: #3a3a3a;
+$mainFont_4: #ffffff;
 
 //提醒字色
 $remind: #292CFF;
@@ -17,7 +23,7 @@ $mainLinear_Word: #ffffff;
 $header_BG_1: #ffffff;
 $header_Color1: #5a6569;
 $header_Color2: #daaf6d;
-$header_mainColor: #b8151a;
+$header_mainColor: #DD2830;
 $header_mainColor_Active: #c9a567;
 $header_langBorder: #daaf6d;
 $header_langBtn: #e5bb85;
@@ -27,12 +33,12 @@ $header_langBtn: #e5bb85;
     color: #ffffff;
 
     &:hover,&:active,&.active {
-        background: #b8151a;
+        background: #DD2830;
         color: #ffffff;
     }
 }
 @mixin headerLang {
-    background: #ffffff;
+    background: #000000;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
@@ -62,21 +68,21 @@ $header_langBtn: #e5bb85;
     }
 }
 @mixin headerInput {
-    background: #ffffff;
+    background: #000000;
     border: solid 1px #daaf6d;
     border-radius: 30px;
     box-shadow: 0 2px 5px 0 #0000001a inset;
-    color: #b11319;
+    color: #ffffff;
     font-size: 16px;
     font-weight: bold;
     padding: 0 5px 0 12px;
 
     &::placeholder {
-        color: #b11319;
+        color: #ffffff;
     }
 }
 @mixin headerMoney {
-    color: #b8151a;
+    color: #DD2830;
     font-size: 16px;
     font-weight: bold;
     position: relative;
@@ -124,12 +130,12 @@ $headerNav_agentHover: #b8151a;
 }
 
 //marquee
-$marquee_BG: #ffffff;
+$marquee_BG: #000000;
 $marquee_Border: #daaf6d;
-$marquee_Linear: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
+$marquee_Linear: #C9A76C;
 $marquee_Linear_Word: #ffffff;
 $marquee_Shadow: #0000002c;
-$marquee_Word: #b37d1f;
+$marquee_Word: $subDeco_color;
 
 //mainWrap
 $line: #c30505;
@@ -162,10 +168,10 @@ $line: #c30505;
 
 //footer
 $footer_Border: #f3d197;
-$footer_List_BG: #f3f3f3;
+$footer_List_BG: #000000;
 $footer_List_Shadow: #0000001c;
 $footer_Title: #ba9141;
-$footer_List_Word: #1f2629;
+$footer_List_Word: #ffffff;
 $footer_List_Active: linear-gradient(to top,#970707 0%,#cf0505 98%);
 $footer_bottomBG: #b8151a;
 $footer_bottomColor: #ffffff;
@@ -247,7 +253,7 @@ $innerPage_topList_Word: #ffffff;
     }
 }
 @mixin innerPageWrapBG {
-    background: #f7f7f7;
+    background: #000000;
     border-radius: 10px;
     border: solid 1px #f3d197;
     box-shadow: 0 2px 5px 0 #00000042 inset;
@@ -283,7 +289,7 @@ $innerPageLeftList_iconBG: #ffffff;
 }
 $innerBG_1_Border: #daaf6d;
 @mixin innerBG_2 {
-    background: #ffffff;
+    background: #000000;
     border-radius: 16px;
     border: solid 1px #daaf6d;
     box-shadow: 0 2px 5px 1px #00000049;
@@ -505,14 +511,14 @@ $deposit_depList_innerBG: #daa448;
     }
 }
 @mixin helpMoreList {
-    background: #ffffff;
+    background: #000000;
     border-radius: 16px;
     border: solid 1px #daaf6d;
     box-shadow: 0 2px 5px 1px #00000049;
     overflow: hidden;
 
     &:active,&.active {
-        border-color: #b8151a;
+        border-color: #DD2830;
     }
 }
 $helpMoreList_Border: #b8151a;
@@ -549,22 +555,22 @@ $page_ActiveBG: #b8151a;
 $filter: #0000009e;
 
 //彈窗色
-$jumpWindow_Title: linear-gradient(to top,#970707 0%,#cf0505 98%);
-$jumpWindow_BG: #f9f9f9;
-$jumpWindow_Border: #b8151a;
+$jumpWindow_Title: #ffffff;
+$jumpWindow_BG: #000000;
+$jumpWindow_Border: $marquee_Border;
 @mixin newsBox {
-    background: linear-gradient(to top,#eeeeee 0%,#ffffff 100%);
+    background: #000000;
     border-radius: 5px;
-    border: solid 1px #b8151a;
+    border: solid 1px #daaf6d;
     overflow: hidden;
 
     &.active {
-        background: #ffffff;
+        background: #000000;
         box-shadow: 0 2px 5px 0 #0000001d inset;
     }
 }
-$jumpWindow_table_TitleBG: linear-gradient(to top,#eeeeee 0%,#ffffff 100%);
-$jumpWindow_table_BG: #f1f1f1;
+$jumpWindow_table_TitleBG: #000000;
+$jumpWindow_table_BG: #000000;
 $jumpWindow_table_Border: #b74f4e;
 
 $register_htmlBG: #bd9c66;
@@ -632,7 +638,8 @@ $agent_register_depositBorder: #daaf6d;
 
 //最常用按鈕
 @mixin mainBtn {
-    background: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
+    // background: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
+    background: $mainDeco_color;
     border: none;
     border-radius: 30px;
     color: #ffffff;
@@ -646,7 +653,7 @@ $agent_register_depositBorder: #daaf6d;
 }
 //第二常用按鈕
 @mixin secondBtn {
-    background: linear-gradient(to top,#970707 0%,#cf0505 98%);
+    background: $subDeco_color;
     border: none;
     border-radius: 30px;
     color: #ffffff;
@@ -734,11 +741,11 @@ button:disabled {
 
 //最常用input
 @mixin mainInput {
-    background: #ffffff;
+    background: #000000;
     border: solid 1px #daaf6d;
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 #0000001d inset;
-    color: #3a3a3a;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
     padding-left: 16px;
