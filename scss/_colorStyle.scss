@@ -2,12 +2,14 @@
 $mainColor: #000000;
 $mainDeco_color: #DD2830;
 $subDeco_color: #66E123;
+$subDeco_color02: #ff0000;
 
 //主字色
 $mainFont_1: #b8151a;
 $mainFont_2: #ba9141;
 $mainFont_3: #3a3a3a;
 $mainFont_4: #ffffff;
+$mainFont_5: #ffcb72;
 
 //提醒字色
 $remind: #292CFF;
@@ -108,7 +110,7 @@ $headerMoneyList_Border: #c9a76c;
 $headerMoneyList_secondBorder: #a8a8a8;
 //headerNav
 $headerNav_Word: #ffffff;
-$headerNav_Hover: #b37d1f;
+$headerNav_Hover: #ff0000;
 $headerNav_agentHover: #b8151a;
 
 //ad
@@ -187,9 +189,10 @@ $footer_bottomColor: #ffffff;
 
 //gameWrap
 $gameWrap_Word: #000000;
-$gameWrap_platformBtn_Word: #b6832d;
+$gameWrap_platformBtn_Word: #ffcb72;
 $gameWrap_platformBtn_Active: #ffffff;
 $gameWrap_Game_platformBG: #ffffffc7;
+$gameWrap_platformBoxLI_border: #daaf6d;
 @mixin playBtn {
     background: linear-gradient(to top,#037cd9 0%,#2cd5ff 100%);
     border-radius: 30px;
@@ -229,16 +232,18 @@ $innerPage_Banner_Medal: #ffffff;
 $innerPage_Banner_LevelBG: #b8151a;
 $innerPage_Banner_Time: #ffebad;
 $innerPage_topList_Word: #ffffff;
+$innerPage_topList_border: #daaf6d;
+$innerPage_topList_activeBG: linear-gradient(to top, #970707 0%, #cf0505 98%);
 @mixin Banner {
-    background: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
+    background: #000000;
     border-radius: 10px;
     border: solid 1px #fadaa5;
     box-shadow: 0 2px 5px 0 #0000006b;
 }
 @mixin BannerBtn {
-    background: linear-gradient(to bottom,#ffffff 35%,#e5e5e5 100%);
+    background: #000000;
     border-radius: 16px;
-    border: solid 1px #ffffff;
+    border: solid 1px #fadaa5;
     color: #b6832d;
     font-size: 20px;
     font-weight: bold;
@@ -260,11 +265,11 @@ $innerPage_topList_Word: #ffffff;
     padding: 90px 24px 24px;
 }
 @mixin innerPageLeftList {
-    background: linear-gradient(to bottom,#ffffff 44%,#f9f9f9 100%);
+    background: #000000;
     border: solid 1px #daaf6d;
     border-left: none;
     border-radius: 0 30px 30px 0;
-    color: #6d4b12;
+    color: #ffcb72;
     font-size: 15px;
     font-weight: bold;
     display: flex;
@@ -281,7 +286,7 @@ $innerPage_topList_Word: #ffffff;
 }
 $innerPageLeftList_iconBG: #ffffff;
 @mixin innerBG_1 {
-    background: linear-gradient(to bottom,#ffffff 44%,#f9f9f9 100%);
+    background: #000000;
     border-radius: 16px;
     border: solid 1px #daaf6d;
     box-shadow: 0 2px 5px 0 #0000002f;
@@ -294,10 +299,11 @@ $innerBG_1_Border: #daaf6d;
     border: solid 1px #daaf6d;
     box-shadow: 0 2px 5px 1px #00000049;
 }
-$innerBG_2_secondBG: #e6e6e6;
+$innerBG_2_secondBG: #000000;
 $innerBG_2_secondTitle: #8d6116;
 @mixin innerBG_3 {
-    background: #ffffff;
+    background: #000000;
+    border: 1px solid #ffcb72;
     border-radius: 5px;
     box-shadow: 0 2px 3px 1px #0000001e;
     position: relative;
@@ -308,7 +314,7 @@ $innerBG_2_secondTitle: #8d6116;
         position: absolute;
         width: 5px;
         height: 100%;
-        background: #daaf6d;
+        background: #ffcb72;
         top: 0;
         left: 0;
     }
@@ -701,15 +707,16 @@ $agent_register_depositBorder: #daaf6d;
 }
 //日期按鈕
 @mixin dateBtn {
-    background: linear-gradient(to bottom,#ffffff 15%,#f2f2f2 100%);
+    background: #000000;
     border-radius: 3px;
-    border: solid 1px #daaf6d;
-    color: #b6832d;
+    border: solid 1px #ffcb72;
+    color: #ffcb72;
     font-size: 16px;
     font-weight: bold;
 
     &:hover,&:active,&.active {
-        background: linear-gradient(to bottom,#a87a33 0%,#ca9d58 100%);
+        background: #cf0505;
+        border-color: transparent;
         color: #ffffff;
     }
 }
@@ -768,6 +775,12 @@ button:disabled {
 
     &::placeholder {
         color: #b08a48;
+    }
+
+    &:disabled {
+        background: #000000 !important;
+        border: solid 1px #ffcb72 !important;
+        color: #ffcb72 !important;
     }
 }
 @mixin registerInput {

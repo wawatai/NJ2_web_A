@@ -194,15 +194,15 @@ footer .qs {
     background: url('../images/icon/search.png') no-repeat;
     background-size: contain;
 }
-.gameWrap .platformBox li {
-    background: url('../images/gameWrapNav_02.png');
-}
-.gameWrap .platformBox li::before {
-    background: url('../images/gameWrapNav_01.png');
-}
-.gameWrap .platformBox li::after {
-    background: url('../images/gameWrapNav_03.png');
-}
+// .gameWrap .platformBox li {
+//     background: url('../images/gameWrapNav_02.png');
+// }
+// .gameWrap .platformBox li::before {
+//     background: url('../images/gameWrapNav_01.png');
+// }
+// .gameWrap .platformBox li::after {
+//     background: url('../images/gameWrapNav_03.png');
+// }
 .gameWrap .platformBox li.active {
     background: url('../images/gameWrapNav_02_active.png');
 }
@@ -492,27 +492,27 @@ footer .qs {
     background: url('../images/icon/arrow_3.png') no-repeat;
     background-size: contain;
 }
-.innerPage .rightSide .topList li {
-    background: url('../images/innerPageNav_02.png');
-}
-.innerPage .rightSide .topList li:hover,
-.innerPage .rightSide .topList li.active {
-    background: url('../images/innerPageNav_02_active.png');
-}
-.innerPage .rightSide .topList li::before {
-    background: url("../images/innerPageNav_01.png");
-}
-.innerPage .rightSide .topList li:hover::before,
-.innerPage .rightSide .topList li.active::before {
-    background: url('../images/innerPageNav_01_active.png');
-}
-.innerPage .rightSide .topList li::after {
-    background: url("../images/innerPageNav_03.png");
-}
-.innerPage .rightSide .topList li:hover::after,
-.innerPage .rightSide .topList li.active::after {
-    background: url('../images/innerPageNav_03_active.png');
-}
+// .innerPage .rightSide .topList li {
+//     background: url('../images/innerPageNav_02.png');
+// }
+// .innerPage .rightSide .topList li:hover,
+// .innerPage .rightSide .topList li.active {
+//     background: url('../images/innerPageNav_02_active.png');
+// }
+// .innerPage .rightSide .topList li::before {
+//     background: url("../images/innerPageNav_01.png");
+// }
+// .innerPage .rightSide .topList li:hover::before,
+// .innerPage .rightSide .topList li.active::before {
+//     background: url('../images/innerPageNav_01_active.png');
+// }
+// .innerPage .rightSide .topList li::after {
+//     background: url("../images/innerPageNav_03.png");
+// }
+// .innerPage .rightSide .topList li:hover::after,
+// .innerPage .rightSide .topList li.active::after {
+//     background: url('../images/innerPageNav_03_active.png');
+// }
 .innerPage .rightSide .selectBox .arrow_ic {
     background: url('../images/icon/arrow_2.png') no-repeat;
     background-size: contain;
