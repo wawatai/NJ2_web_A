@@ -1,6 +1,6 @@
 @charset "UTF-8";
 button:disabled {
-  background: #c9c9c9 !important;
+  background: #504f4f !important;
   border: none !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
@@ -636,30 +636,6 @@ footer .qs {
 .innerPage .rightSide.member .imgBox .qr {
   background: url("../images/qr.png") no-repeat;
   background-size: contain;
-}
-
-.innerPage .rightSide.vip .bar {
-  background: url("../images/vipBar_02.png");
-}
-
-.innerPage .rightSide.vip .bar::before {
-  background: url("../images/vipBar_01.png") no-repeat;
-}
-
-.innerPage .rightSide.vip .bar::after {
-  background: url("../images/vipBar_03.png") no-repeat;
-}
-
-.innerPage .rightSide.vip .bar div {
-  background: url("../images/vipBar_02_active.png");
-}
-
-.innerPage .rightSide.vip .bar div::before {
-  background: url("../images/vipBar_01_active.png") no-repeat;
-}
-
-.innerPage .rightSide.vip .bar div::after {
-  background: url("../images/vipBar_03_active.png") no-repeat;
 }
 
 .innerPage .rightSide.vip .detailBox button {
@@ -2990,19 +2966,18 @@ html body .filter .jumpWindow.news.display, html body .filter .jumpWindow.rules.
 html body .filter .jumpWindow.news.rules .allBtn, html body .filter .jumpWindow.rules.rules .allBtn {
   width: 200px;
   height: 35px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   display: block;
   margin: 20px auto 0;
 }
 html body .filter .jumpWindow.news.rules .allBtn:hover, html body .filter .jumpWindow.news.rules .allBtn:active, html body .filter .jumpWindow.news.rules .allBtn.active, html body .filter .jumpWindow.rules.rules .allBtn:hover, html body .filter .jumpWindow.rules.rules .allBtn:active, html body .filter .jumpWindow.rules.rules .allBtn.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .filter .jumpWindow.news.rules .box .infoBox, html body .filter .jumpWindow.rules.rules .box .infoBox {
   width: 100%;
@@ -3656,7 +3631,7 @@ html body .filter .jumpWindow.eventWindow .content .secondTitle:nth-of-type(1) {
   margin-top: 0;
 }
 html body .filter .jumpWindow.eventWindow .content .text {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -3668,7 +3643,7 @@ html body .filter .jumpWindow.eventWindow .content .textBox {
   text-align: center;
 }
 html body .filter .jumpWindow.eventWindow .content .textBox p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
@@ -3921,19 +3896,18 @@ html body .filter .jumpWindow.changePhone .content .inputBox input:disabled {
 html body .filter .jumpWindow.changePhone .content .getCode {
   width: 300px;
   height: 35px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   display: block;
   margin: 20px auto 30px;
 }
 html body .filter .jumpWindow.changePhone .content .getCode:hover, html body .filter .jumpWindow.changePhone .content .getCode:active, html body .filter .jumpWindow.changePhone .content .getCode.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .filter .jumpWindow.changePhone .content .btnBox {
   width: 300px;
@@ -4277,7 +4251,7 @@ html body .filter .jumpWindow.agentRegister .box .top .right .row .depositBox di
 }
 html body .filter .jumpWindow.agentRegister .box .top .left .row .depositBox div p,
 html body .filter .jumpWindow.agentRegister .box .top .right .row .depositBox div p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 22px;
   font-weight: bold;
 }
@@ -4872,15 +4846,15 @@ html body .eventWrap .content .listBox {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 0 20px;
   margin-bottom: 12px;
 }
 html body .eventWrap .content .listBox li {
   width: auto;
   height: 51px;
-  color: #ffcb72;
-  font-size: 20px;
-  font-weight: bold;
+  background: #000000;
+  border: 1px solid #daaf6d;
+  -webkit-transform: skewX(335deg);
+          transform: skewX(335deg);
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4891,36 +4865,38 @@ html body .eventWrap .content .listBox li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0 8px;
-  margin: 0 20px 10px;
+  padding: 0 15px;
+  margin: 0 7px 10px;
   cursor: pointer;
 }
+html body .eventWrap .content .listBox li p {
+  display: block;
+  color: #ffcb72;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transform: skewX(-335deg);
+          transform: skewX(-335deg);
+}
 html body .eventWrap .content .listBox li.active {
-  color: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  border-color: transparent;
 }
 html body .eventWrap .content .listBox li.active i {
   background-position-y: 100%;
 }
-html body .eventWrap .content .listBox li::before {
-  content: "";
-  position: absolute;
-  left: -31px;
-  top: 0;
-  width: 31px;
-  height: 100%;
+html body .eventWrap .content .listBox li.active p {
+  color: #ffffff;
 }
-html body .eventWrap .content .listBox li::after {
-  content: "";
-  position: absolute;
-  right: -31px;
-  top: 0;
-  width: 31px;
-  height: 100%;
+html body .eventWrap .content .listBox li:first-child {
+  margin: 0 7px 0 11px;
 }
 html body .eventWrap .content .listBox li i {
   width: 32px;
   height: 32px;
   margin-right: 10px;
+  -webkit-transform: skewX(-335deg);
+          transform: skewX(-335deg);
 }
 html body .eventWrap .content .listBox li i.all_ic {
   background-position-x: 0;
@@ -6019,12 +5995,12 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform table {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform table tr:nth-of-type(2n + 1) {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform table tr th {
   height: 40px;
@@ -6054,7 +6030,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox.platform table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -6311,11 +6287,10 @@ html body .innerPage .center .innerMainWrap .rightSide.vip .detailBox .box butto
 html body .innerPage .center .innerMainWrap .rightSide.vip .back {
   width: auto;
   height: 30px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f0ddbc), color-stop(70%, #fff7e2));
-  background: linear-gradient(to top, #f0ddbc 0%, #fff7e2 70%);
-  border: solid 1px #a47d3b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   border-radius: 30px;
-  color: #775012;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   display: -webkit-box;
@@ -6344,8 +6319,8 @@ html body .innerPage .center .innerMainWrap .rightSide.vip .back .arrow_ic {
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table {
   width: 100%;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   height: auto;
   margin-bottom: 20px;
 }
@@ -6371,7 +6346,7 @@ html body .innerPage .center .innerMainWrap .rightSide.vip table.five tr td:nth-
   width: 26%;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table tr:nth-of-type(2n + 1) {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table tr th {
   height: 40px;
@@ -6380,11 +6355,10 @@ html body .innerPage .center .innerMainWrap .rightSide.vip table tr th {
   vertical-align: middle;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table tr th:first-child {
-  background: -webkit-gradient(linear, left bottom, left top, from(#b6b6b6), color-stop(77%, #dfdfdf));
-  background: linear-gradient(to top, #b6b6b6 0%, #dfdfdf 77%);
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table tr th:first-child p {
-  color: #3a3a3a;
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.vip table tr th p {
   width: 100%;
@@ -6413,7 +6387,7 @@ html body .innerPage .center .innerMainWrap .rightSide.vip table tr td p {
   width: 100%;
   height: 22px;
   border-right: solid 1px #a8a8a8;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   display: -webkit-box;
@@ -7098,7 +7072,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .box .row .smallTitle {
   width: 60px;
-  color: #8d6116;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -7239,12 +7213,12 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table tr:nth-of-type(2n + 1) {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table tr th {
   height: 40px;
@@ -7274,7 +7248,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -7283,7 +7257,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
   white-space: nowrap;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox table tr td p.money {
-  color: #b8151a;
+  color: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox .pageBox {
   width: 100%;
@@ -7376,12 +7350,12 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.wate
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr:nth-of-type(2n + 1) td {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr th {
   height: 40px;
@@ -7417,7 +7391,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.wate
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -7447,11 +7421,10 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.wate
   height: 30px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td .btnBox button:first-child {
-  background: -webkit-gradient(linear, left bottom, left top, from(#f0ddbc), color-stop(70%, #fff7e2));
-  background: linear-gradient(to top, #f0ddbc 0%, #fff7e2 70%);
-  border: solid 1px #a47d3b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   border-radius: 30px;
-  color: #775012;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -7461,17 +7434,16 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.wate
   color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td .btnBox button:last-child {
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td .btnBox button:last-child:hover, html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td .btnBox button:last-child:active, html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water table tr td .btnBox button:last-child.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.water .pageBox {
   width: 100%;
@@ -7606,7 +7578,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .smallTitle {
   width: 80px;
-  color: #8d6116;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -7758,7 +7730,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable {
   width: 100%;
   height: auto;
-  border: solid 1px #b78d4b;
+  border: solid 1px #ffcb72;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row {
   width: 100%;
@@ -7766,7 +7738,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
   overflow: hidden;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row:nth-of-type(2n + 1) .outerTitle {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row:first-child .outerTitle {
   background: -webkit-gradient(linear, left bottom, left top, from(#b78c4b), to(#d5ab6a));
@@ -7797,7 +7769,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .outerTitle {
   width: 100%;
   height: 40px;
-  background: #f7f7f7;
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7828,7 +7800,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .outerTitle div p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -7837,7 +7809,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
   white-space: nowrap;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .outerTitle div p.money {
-  color: #b8151a;
+  color: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .outerTitle div i {
   width: 9px;
@@ -7857,12 +7829,12 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .innerBox table {
   width: 100%;
   height: auto;
-  background: #ffffff;
+  background: #000000;
   border: solid 1px #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .innerBox table tr th {
   height: 35px;
-  background: #f7f7f7;
+  background: #000000;
   vertical-align: middle;
   border: solid 1px #b8151a;
   border-width: 0 1px 1px 0;
@@ -7872,7 +7844,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .innerBox table tr th p {
   width: 100%;
-  color: #b8151a;
+  color: #ff0000;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -7902,7 +7874,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .innerBox table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -7931,13 +7903,13 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more {
   width: 26px;
   height: 26px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
+  background: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7950,8 +7922,11 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .down
   margin-left: 10px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:hover, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:active, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more.active {
+  background: #ffffff;
+  color: #b8151a;
+}
+html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:hover, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:active, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more.active {
   background: #b8151a;
-  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:hover i, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more:active i, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox .fakeTable .row .pageBox .more.active i {
   -webkit-filter: grayscale(1) brightness(15);
@@ -8100,9 +8075,11 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li {
   width: auto;
   height: 40px;
   position: relative;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
+  background: #000000;
+  border: 1px solid #daaf6d;
+  border-bottom: transparent;
+  -webkit-transform: skewX(335deg);
+          transform: skewX(335deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8114,23 +8091,23 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li {
           justify-content: center;
   cursor: pointer;
   padding: 0 23px;
-  margin-right: 35px;
+  margin-right: 11px;
 }
-html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li::before {
-  content: "";
-  position: absolute;
-  left: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li p {
+  display: block;
+  color: #ffcb72;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transform: skewX(-335deg);
+          transform: skewX(-335deg);
 }
-html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li::after {
-  content: "";
-  position: absolute;
-  right: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li:hover, html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li:active, html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  border-color: transparent;
+}
+html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li:hover p, html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li:active p, html body .innerPage .center .innerMainWrap .rightSide.eventApply .topList li.active p {
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox {
   width: 100%;
@@ -8191,14 +8168,14 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box t
   vertical-align: middle;
   border: solid 1px #a8a8a8;
   border-width: 0 1px 1px 0;
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table tr th:last-child {
   border-right: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table tr th p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -8212,14 +8189,14 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box t
   border: solid 1px #a8a8a8;
   border-width: 0 1px 1px 0;
   vertical-align: middle;
-  background: #f7f7f7;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table tr td:last-child {
   border-right: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -8234,7 +8211,7 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box t
   margin-top: 8px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table.second tr:nth-of-type(even) td {
-  background: #fbfbfb;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .box table.second tr th {
   background: #b8151a;
@@ -8338,7 +8315,7 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBo
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .topBox .smallBox .row .topTitle {
   width: 60px;
-  color: #8d6116;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -8474,12 +8451,12 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downB
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox table {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox table tr:nth-of-type(2n + 1) {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox table tr th {
   height: 40px;
@@ -8518,7 +8495,7 @@ html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downB
 }
 html body .innerPage .center .innerMainWrap .rightSide.eventApply .bigBox .downBox table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -8755,9 +8732,11 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li
   width: auto;
   height: 40px;
   position: relative;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
+  background: #000000;
+  border: 1px solid #daaf6d;
+  border-bottom: transparent;
+  -webkit-transform: skewX(335deg);
+          transform: skewX(335deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8769,23 +8748,23 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li
           justify-content: center;
   cursor: pointer;
   padding: 0 23px;
-  margin-right: 35px;
+  margin-right: 11px;
 }
-html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li::before {
-  content: "";
-  position: absolute;
-  left: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li p {
+  display: block;
+  color: #ffcb72;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transform: skewX(-335deg);
+          transform: skewX(-335deg);
 }
-html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li::after {
-  content: "";
-  position: absolute;
-  right: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li:hover, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li:active, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  border-color: transparent;
+}
+html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li:hover p, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li:active p, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .topList li.active p {
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box {
   width: 100%;
@@ -8901,11 +8880,10 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .btnBo
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .btnBox div button {
   width: auto;
   height: 30px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f0ddbc), color-stop(70%, #fff7e2));
-  background: linear-gradient(to top, #f0ddbc 0%, #fff7e2 70%);
-  border: solid 1px #a47d3b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   border-radius: 30px;
-  color: #775012;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   display: -webkit-box;
@@ -8963,8 +8941,8 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail 
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li {
   width: 100%;
   height: 45px;
-  background: #f7f7f7;
-  border: solid 1px transparent;
+  background: #000000;
+  border: solid 1px #ffcb72;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8980,8 +8958,8 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail 
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li:hover,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li:active,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.active {
-  background: #ffffff;
-  border-color: #b8151a;
+  background: #000000;
+  border-color: #ff0000;
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2862745098);
           box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2862745098);
 }
@@ -9008,6 +8986,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post 
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li.read,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.read {
   background: none;
+  border: 2px solid #3a3a3a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li.read::before,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.read::before {
@@ -9025,7 +9004,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail 
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.editing:hover,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.editing:active,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li.editing.active {
-  background: #f7f7f7;
+  background: #000000;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -9126,7 +9105,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post 
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li div .smallTitle,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li div .smallTitle {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 18px;
   font-weight: bold;
   margin-right: 5px;
@@ -9136,7 +9115,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post 
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li div .content,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li div .content {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   overflow: hidden;
@@ -9145,7 +9124,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post 
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mail li div .time,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .post li div .time {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   display: -webkit-box;
@@ -9193,7 +9172,7 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postC
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailCnt .smallTitle .name,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .smallTitle .name {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 23px;
   font-weight: bold;
 }
@@ -9208,13 +9187,14 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postC
   width: 100%;
   height: auto;
   min-height: 338px;
-  background: #f7f7f7;
+  background: #000000;
+  border: 1px solid #ffcb72;
   padding: 16px;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailCnt .content p,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .content p {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -9234,11 +9214,10 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailC
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .innerPageBox button {
   width: 26px;
   height: 26px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   border-color: #dbb170;
@@ -9248,8 +9227,8 @@ html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailC
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .innerPageBox button:hover,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .innerPageBox button:active,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .innerPageBox button.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailCnt .innerPageBox button:hover, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailCnt .innerPageBox button:active, html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .mailCnt .innerPageBox button.active,
 html body .innerPage .center .innerMainWrap .rightSide.mail .mailBox .box .postCnt .innerPageBox button:hover,
@@ -9393,9 +9372,11 @@ html body .innerPage .center .innerMainWrap .rightSide.point .topList li {
   width: auto;
   height: 40px;
   position: relative;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: bold;
+  background: #000000;
+  border: 1px solid #daaf6d;
+  border-bottom: transparent;
+  -webkit-transform: skewX(335deg);
+          transform: skewX(335deg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9407,23 +9388,23 @@ html body .innerPage .center .innerMainWrap .rightSide.point .topList li {
           justify-content: center;
   cursor: pointer;
   padding: 0 23px;
-  margin-right: 35px;
+  margin-right: 11px;
 }
-html body .innerPage .center .innerMainWrap .rightSide.point .topList li::before {
-  content: "";
-  position: absolute;
-  left: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.point .topList li p {
+  display: block;
+  color: #ffcb72;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transform: skewX(-335deg);
+          transform: skewX(-335deg);
 }
-html body .innerPage .center .innerMainWrap .rightSide.point .topList li::after {
-  content: "";
-  position: absolute;
-  right: -24px;
-  top: 0;
-  width: 24px;
-  height: 100%;
+html body .innerPage .center .innerMainWrap .rightSide.point .topList li:hover, html body .innerPage .center .innerMainWrap .rightSide.point .topList li:active, html body .innerPage .center .innerMainWrap .rightSide.point .topList li.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#970707), color-stop(98%, #cf0505));
+  background: linear-gradient(to top, #970707 0%, #cf0505 98%);
+  border-color: transparent;
+}
+html body .innerPage .center .innerMainWrap .rightSide.point .topList li:hover p, html body .innerPage .center .innerMainWrap .rightSide.point .topList li:active p, html body .innerPage .center .innerMainWrap .rightSide.point .topList li.active p {
+  color: #ffffff;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox {
   width: 100%;
@@ -9470,7 +9451,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .box .smallTitle {
   width: 60px;
-  color: #8d6116;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
   text-align: right;
@@ -9587,8 +9568,8 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox 
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li {
   width: 100%;
   height: 56px;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9599,7 +9580,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox 
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div {
   height: 30px;
-  border-right: solid 1px #a8a8a8;
+  border-right: solid 1px #ffcb72;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9620,58 +9601,53 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox 
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div:nth-of-type(3), html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div:nth-of-type(4) {
   width: 29%;
 }
-html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div:nth-of-type(4) {
-  border: none;
-}
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox {
   height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #cbaa72;
+  background: #000000;
   border: none;
   padding: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox.disable {
   height: 30px;
   background: none;
-  border-left: solid 1px #a8a8a8;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox button {
   width: auto;
   height: 25px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   padding: 0 15px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox button:hover, html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox button:active, html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div.btnBox button.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div p {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox .partner li div span {
-  color: #b8151a;
+  color: #ff0000;
   font-size: 16px;
   font-weight: bold;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox table {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
-  border: solid 1px #b78d4b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   margin-bottom: 20px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox table tr:nth-of-type(2n + 1) {
-  background: #e4e4e4;
+  background: #000000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox table tr th {
   height: 40px;
@@ -9696,7 +9672,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox 
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox table tr td p {
   width: 100%;
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -9806,11 +9782,10 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .btnBox {
 html body .innerPage .center .innerMainWrap .rightSide.deposit .btnBox button {
   width: auto;
   height: 28px;
-  background: -webkit-gradient(linear, left bottom, left top, from(#f0ddbc), color-stop(70%, #fff7e2));
-  background: linear-gradient(to top, #f0ddbc 0%, #fff7e2 70%);
-  border: solid 1px #a47d3b;
+  background: #000000;
+  border: solid 1px #ffcb72;
   border-radius: 30px;
-  color: #775012;
+  color: #ffcb72;
   font-size: 14px;
   font-weight: bold;
   display: -webkit-box;
@@ -10353,7 +10328,7 @@ html body .innerPage .center .innerMainWrap .rightSide.transfer .moneyList ul li
   left: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.transfer .moneyList ul li .name {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
 }
@@ -10747,7 +10722,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .moneyList ul 
   left: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .moneyList ul li .name {
-  color: #3a3a3a;
+  color: #ffcb72;
   font-size: 16px;
   font-weight: bold;
 }
@@ -11212,12 +11187,11 @@ html body .help .center .helpMainWrap .leftSide .btnBox {
 html body .help .center .helpMainWrap .leftSide .btnBox li {
   width: 205px;
   height: 45px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, #ffffff), to(#f9f9f9));
-  background: linear-gradient(to bottom, #ffffff 44%, #f9f9f9 100%);
-  border: solid 1px #daaf6d;
+  background: #000000;
+  border: solid 1px #ffcb72;
   border-left: none;
   border-radius: 0 30px 30px 0;
-  color: #6d4b12;
+  color: #ffcb72;
   font-size: 15px;
   font-weight: bold;
   display: -webkit-box;
@@ -11236,8 +11210,8 @@ html body .help .center .helpMainWrap .leftSide .btnBox li {
   margin-bottom: 12px;
 }
 html body .help .center .helpMainWrap .leftSide .btnBox li:hover, html body .help .center .helpMainWrap .leftSide .btnBox li:active, html body .help .center .helpMainWrap .leftSide .btnBox li.active {
-  border-color: #b8151a;
-  color: #b8151a;
+  border-color: #ff0000;
+  color: #ffffff;
 }
 html body .help .center .helpMainWrap .leftSide .btnBox li:hover, html body .help .center .helpMainWrap .leftSide .btnBox li:active, html body .help .center .helpMainWrap .leftSide .btnBox li.active {
   width: 235px;
@@ -11594,18 +11568,17 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox butt
   background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox button:last-child {
-  background: -webkit-gradient(linear, left bottom, left top, from(#e0e0e0), color-stop(70%, #ffffff));
-  background: linear-gradient(to top, #e0e0e0 0%, #ffffff 70%);
+  background: #b8151a;
   border: solid 1px #b8151a;
   border-radius: 30px;
-  color: #b8151a;
+  color: #ffffff;
   font-size: 14px;
   font-weight: bold;
   margin-top: 20px;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox button:last-child:hover, html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox button:last-child:active, html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox button:last-child.active {
-  background: #b8151a;
-  color: #ffffff;
+  background: #ffffff;
+  color: #b8151a;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .imgBox {
   width: 100%;

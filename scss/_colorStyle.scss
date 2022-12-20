@@ -20,6 +20,7 @@ $disable: #929292;
 //主漸層
 $mainLinear_1: linear-gradient(to top,#bc9c64 4%,#f3d197 93%);
 $mainLinear_Word: #ffffff;
+$subLinearActive: linear-gradient(to top,#970707 0%,#cf0505 98%);
 
 //header色
 $header_BG_1: #ffffff;
@@ -300,7 +301,7 @@ $innerBG_1_Border: #daaf6d;
     box-shadow: 0 2px 5px 1px #00000049;
 }
 $innerBG_2_secondBG: #000000;
-$innerBG_2_secondTitle: #8d6116;
+$innerBG_2_secondTitle: #ffcb72;
 @mixin innerBG_3 {
     background: #000000;
     border: 1px solid #ffcb72;
@@ -433,8 +434,8 @@ $innerPage_Betting_totalBG: #cca261;
 $innerPage_Betting_totalColor: #ffffff;
 
 @mixin mail {
-    background: #f7f7f7;
-    border: solid 1px transparent;
+    background: #000000;
+    border: solid 1px #ffcb72;
     display: flex;
     align-items: center;
     position: relative;
@@ -442,8 +443,8 @@ $innerPage_Betting_totalColor: #ffffff;
     cursor: pointer;
 
     &:hover,&:active,&.active {
-        background: #ffffff;
-        border-color: #b8151a;
+        background: #000000;
+        border-color: #ff0000;
         box-shadow: 0 2px 5px 0 #00000049;
 
         &::before {
@@ -461,7 +462,7 @@ $innerPage_Betting_totalColor: #ffffff;
         background: #daaf6d;
     }
 }
-$mail_BG: #f7f7f7;
+$mail_BG: #000000;
 
 @mixin transfer_applyBG {
     background: linear-gradient(to bottom,#fff3d3 32%,#f2dcb6 100%);
@@ -483,11 +484,11 @@ $deposit_depList_innerBG: #daa448;
 
 //help
 @mixin helpLeftList {
-    background: linear-gradient(to bottom,#ffffff 44%,#f9f9f9 100%);
-    border: solid 1px #daaf6d;
+    background: #000000;
+    border: solid 1px #ffcb72;
     border-left: none;
     border-radius: 0 30px 30px 0;
-    color: #6d4b12;
+    color: #ffcb72;
     font-size: 15px;
     font-weight: bold;
     display: flex;
@@ -498,8 +499,8 @@ $deposit_depList_innerBG: #daa448;
     padding: 0 5px 0 15px;
 
     &:hover,&:active,&.active {
-        border-color: #b8151a;
-        color: #b8151a;
+        border-color: #ff0000;
+        color: #ffffff;
     }
 }
 @mixin helpLeftList_innerBtn {
@@ -532,19 +533,19 @@ $help_upload_Border: #cccccc;
 
 //table樣式
 $table_TitleBG: linear-gradient(to top,#b78c4b 0%,#d5ab6a 100%);
-$table_TitleSecondBG: linear-gradient(to top,#b6b6b6 0%,#dfdfdf 77%);
+$table_TitleSecondBG: #000000;
 $table_TitleColor: #ffffff;
-$table_Border: #b78d4b;
+$table_Border: #ffcb72;
 $table_secondBorder: #a8a8a8;
-$table_BG: #f7f7f7;
-$table_secondBG: #e4e4e4;
+$table_BG: #000000;
+$table_secondBG: #000000;
 $table_thirdBG: #fbfbfb;
 $table_inner_TitleBG: #b8151a;
 $table_inner_BG: #a01014;
-$table_inner_TableTitleBG: #f7f7f7;
+$table_inner_TableTitleBG: #000000;
 $table_inner_TableBorder: #b8151a;
-$table_inner_TableBG: #ffffff;
-$table_point_BtnBoxBG: #cbaa72;
+$table_inner_TableBG: #000000;
+$table_point_BtnBoxBG: #000000;
 $table_agent_TitleBG: #b8151a;
 $table_agent_Title: #ffffff;
 $table_agent_Border: #b8151a;
@@ -722,10 +723,10 @@ $agent_register_depositBorder: #daaf6d;
 }
 //淺黃按鈕
 @mixin lightBtn_1 {
-    background: linear-gradient(to top,#f0ddbc 0%,#fff7e2 70%);
-    border: solid 1px #a47d3b;
+    background: #000000;
+    border: solid 1px #ffcb72;
     border-radius: 30px;
-    color: #775012;
+    color: #ffcb72;
     font-size: 14px;
     font-weight: bold;
 
@@ -736,22 +737,22 @@ $agent_register_depositBorder: #daaf6d;
 }
 //紅白按鈕
 @mixin lightBtn_2 {
-    background: linear-gradient(to top,#e0e0e0 0%,#ffffff 70%);
+    background: #b8151a;
     border: solid 1px #b8151a;
     border-radius: 30px;
-    color: #b8151a;
+    color: #ffffff;
     font-size: 14px;
     font-weight: bold;
 
     &:hover,&:active,&.active {
-        background: #b8151a;
-        color: #ffffff;
+        background: #ffffff;
+        color: #b8151a;
     }
 }
 $lightBtn_secondColor: #dbb170;
 
 button:disabled {
-    background: #c9c9c9 !important;
+    background: #504f4f !important;
     border: none !important;
     box-shadow: none !important;
     color: #ffffff !important;

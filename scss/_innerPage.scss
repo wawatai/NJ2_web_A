@@ -808,7 +808,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 14px;
                                             font-weight: bold;
                                             text-align: center;
@@ -1158,7 +1158,7 @@
                                     background: $table_TitleSecondBG;
 
                                     p {
-                                        color: $mainFont_3;
+                                        color: $mainFont_4;
                                     }
                                 }
 
@@ -1195,7 +1195,7 @@
                                     width: 100%;
                                     height: 22px;
                                     border-right: solid 1px $table_secondBorder;
-                                    color: $mainFont_3;
+                                    color: $mainFont_5;
                                     font-size: 14px;
                                     font-weight: bold;
                                     display: flex;
@@ -1877,14 +1877,14 @@
     
                                             p {
                                                 width: 100%;
-                                                color: $mainFont_3;
+                                                color: $mainFont_5;
                                                 font-size: 14px;
                                                 font-weight: bold;
                                                 text-align: center;
                                                 @include textHidden;
     
                                                 &.money {
-                                                    color: $mainFont_1;
+                                                    color: $subDeco_color02;
                                                 }
                                             }
                                         }
@@ -2022,7 +2022,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 16px;
                                             font-weight: bold;
                                             text-align: center;
@@ -2359,14 +2359,14 @@
     
                                             p {
                                                 width: 100%;
-                                                color: $mainFont_3;
+                                                color: $mainFont_5;
                                                 font-size: 14px;
                                                 font-weight: bold;
                                                 text-align: center;
                                                 @include textHidden;
                                                 
                                                 &.money {
-                                                    color: $mainFont_1;
+                                                    color: $subDeco_color02;
                                                 }
                                             }
     
@@ -2407,7 +2407,7 @@
 
                                                     p {
                                                         width: 100%;
-                                                        color: $mainFont_1;
+                                                        color: $subDeco_color02;
                                                         font-size: 16px;
                                                         font-weight: bold;
                                                         text-align: center;
@@ -2442,7 +2442,7 @@
 
                                                     p {
                                                         width: 100%;
-                                                        color: $mainFont_3;
+                                                        color: $mainFont_4;
                                                         font-size: 14px;
                                                         font-weight: bold;
                                                         text-align: center;
@@ -2470,13 +2470,14 @@
                                             width: 26px;
                                             height: 26px;
                                             @include lightBtn_2;
+                                            background: $mainFont_4;
                                             display: flex;
                                             align-items: center;
                                             justify-content: center;
                                             margin-left: 10px;
 
                                             &:hover,&:active,&.active {
-
+                                                background: $remind_fail;
                                                 i {
                                                     filter: grayscale(1) brightness(15);
                                                 }
@@ -2621,32 +2622,32 @@
                             width: auto;
                             height: 40px;
                             position: relative;
-                            color: $innerPage_topList_Word;
-                            font-size: 18px;
-                            font-weight: bold;
+                            background: $mainColor;
+                            border: 1px solid $innerPage_topList_border;
+                            border-bottom: transparent;
+                            transform: skewX(335deg);
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             cursor: pointer;
                             padding: 0 23px;
-                            margin-right: 35px;
+                            margin-right: 11px;
 
-                            &::before {
-                                content: "";
-                                position: absolute;
-                                left: -24px;
-                                top: 0;
-                                width: 24px;
-                                height: 100%;
+                            p {
+                                display: block;
+                                color: $gameWrap_platformBtn_Word;
+                                font-size: 20px;
+                                font-weight: bold;
+                                transform: skewX(-335deg);
                             }
 
-                            &::after {
-                                content: "";
-                                position: absolute;
-                                right: -24px;
-                                top: 0;
-                                width: 24px;
-                                height: 100%;
+                            &:hover,&:active,&.active {
+                                background: $innerPage_topList_activeBG;
+                                border-color: transparent;
+
+                                p {
+                                    color: $mainFont_4;
+                                }
                             }
                         }
                     }
@@ -2718,7 +2719,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 16px;
                                             font-weight: bold;
                                             text-align: center;
@@ -2740,7 +2741,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_4;
                                             font-size: 14px;
                                             font-weight: bold;
                                             text-align: center;
@@ -2761,7 +2762,7 @@
                                         &:nth-of-type(even) {
 
                                             td {
-                                                background: $table_thirdBG;
+                                                background: $table_secondBG;
                                             }
                                         }
 
@@ -2980,7 +2981,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 14px;
                                             font-weight: bold;
                                             text-align: center;
@@ -3197,32 +3198,31 @@
                                 width: auto;
                                 height: 40px;
                                 position: relative;
-                                color: $innerPage_topList_Word;
-                                font-size: 18px;
-                                font-weight: bold;
+                                background: $mainColor;
+                                border: 1px solid $innerPage_topList_border;
+                                border-bottom: transparent;
+                                transform: skewX(335deg);
                                 display: flex;
                                 align-items: center;
                                 justify-content: center;
                                 cursor: pointer;
                                 padding: 0 23px;
-                                margin-right: 35px;
-
-                                &::before {
-                                    content: "";
-                                    position: absolute;
-                                    left: -24px;
-                                    top: 0;
-                                    width: 24px;
-                                    height: 100%;
+                                margin-right: 11px;
+    
+                                p {
+                                    display: block;
+                                    color: $gameWrap_platformBtn_Word;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    transform: skewX(-335deg);
                                 }
-
-                                &::after {
-                                    content: "";
-                                    position: absolute;
-                                    right: -24px;
-                                    top: 0;
-                                    width: 24px;
-                                    height: 100%;
+    
+                                &:hover,&:active,&.active {
+                                    background: $innerPage_topList_activeBG;
+                                    border-color: transparent;
+                                    p {
+                                        color: $mainFont_4;
+                                    }
                                 }
                             }
                         }
@@ -3380,6 +3380,7 @@
 
                                     &.read {
                                         background: none;
+                                        border: 2px solid $mainFont_3;
                                         
                                         &::before {
                                             display: none;
@@ -3455,7 +3456,7 @@
                                         align-items: center;
 
                                         .smallTitle {
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 18px;
                                             font-weight: bold;
                                             margin-right: 5px;
@@ -3464,14 +3465,14 @@
     
                                         .content {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 16px;
                                             font-weight: bold;
                                             @include textHidden;
                                         }
     
                                         .time {
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 16px;
                                             font-weight: bold;
                                             display: flex;
@@ -3509,7 +3510,7 @@
                                     margin-bottom: 20px;
 
                                     .name {
-                                        color: $mainFont_3;
+                                        color: $mainFont_5;
                                         font-size: 23px;
                                         font-weight: bold;
                                     }
@@ -3526,11 +3527,12 @@
                                     height: auto;
                                     min-height: 338px;
                                     background: $mail_BG;
+                                    border: 1px solid $mainFont_5;
                                     padding: 16px;
                                     margin-bottom: 20px;
 
                                     p {
-                                        color: $mainFont_3;
+                                        color: $mainFont_4;
                                         font-size: 16px;
                                         font-weight: bold;
                                         line-height: 24px;
@@ -3683,32 +3685,31 @@
                             width: auto;
                             height: 40px;
                             position: relative;
-                            color: $innerPage_topList_Word;
-                            font-size: 18px;
-                            font-weight: bold;
+                            background: $mainColor;
+                            border: 1px solid $innerPage_topList_border;
+                            border-bottom: transparent;
+                            transform: skewX(335deg);
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             cursor: pointer;
                             padding: 0 23px;
-                            margin-right: 35px;
+                            margin-right: 11px;
 
-                            &::before {
-                                content: "";
-                                position: absolute;
-                                left: -24px;
-                                top: 0;
-                                width: 24px;
-                                height: 100%;
+                            p {
+                                display: block;
+                                color: $gameWrap_platformBtn_Word;
+                                font-size: 20px;
+                                font-weight: bold;
+                                transform: skewX(-335deg);
                             }
 
-                            &::after {
-                                content: "";
-                                position: absolute;
-                                right: -24px;
-                                top: 0;
-                                width: 24px;
-                                height: 100%;
+                            &:hover,&:active,&.active {
+                                background: $innerPage_topList_activeBG;
+                                border-color: transparent;
+                                p {
+                                    color: $mainFont_4;
+                                }
                             }
                         }
                     }
@@ -3826,7 +3827,7 @@
 
                                     div {
                                         height: 30px;
-                                        border-right: solid 1px $table_secondBorder;
+                                        border-right: solid 1px $table_Border;
                                         display: flex;
                                         align-items: center;
                                         justify-content: space-between;
@@ -3844,10 +3845,6 @@
                                             width: 29%;
                                         }
 
-                                        &:nth-of-type(4) {
-                                            border: none;
-                                        }
-
                                         &.btnBox {
                                             height: 100%;
                                             justify-content: center;
@@ -3858,7 +3855,7 @@
                                             &.disable {
                                                 height: 30px;
                                                 background: none;
-                                                border-left: solid 1px $table_secondBorder;
+                                                // border-left: solid 1px $table_secondBorder;
                                             }
 
                                             button {
@@ -3870,13 +3867,13 @@
                                         }
 
                                         p {
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 16px;
                                             font-weight: bold;
                                         }
 
                                         span {
-                                            color: $mainFont_1;
+                                            color: $subDeco_color02;
                                             font-size: 16px;
                                             font-weight: bold;
                                         }
@@ -3919,7 +3916,7 @@
 
                                         p {
                                             width: 100%;
-                                            color: $mainFont_3;
+                                            color: $mainFont_5;
                                             font-size: 14px;
                                             font-weight: bold;
                                             text-align: center;
@@ -4435,7 +4432,7 @@
                                 padding: 0 16px 0 21px;
 
                                 .name {
-                                    color: $mainFont_3;
+                                    color: $mainFont_5;
                                     font-size: 16px;
                                     font-weight: bold;
                                 }
@@ -4718,7 +4715,7 @@
                                 padding: 0 16px 0 21px;
 
                                 .name {
-                                    color: $mainFont_3;
+                                    color: $mainFont_5;
                                     font-size: 16px;
                                     font-weight: bold;
                                 }
