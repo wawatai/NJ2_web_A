@@ -5896,12 +5896,12 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox 
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox .copy_ic {
   width: 42px;
   height: 42px;
-  background: #f0f0f0;
+  background: #000000;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 0;
+  right: 0px;
   cursor: pointer;
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox .copy_ic::before {
@@ -6552,13 +6552,13 @@ html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inpu
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox .copy_ic {
   width: 42px;
-  height: 42px;
-  background: #f0f0f0;
+  height: 37px;
+  background: #000000;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: 0;
+  right: 1px;
   cursor: pointer;
 }
 html body .innerPage .center .innerMainWrap .rightSide.invite .bigBox .box .inputBox .copy_ic::before {

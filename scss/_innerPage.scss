@@ -693,7 +693,7 @@
                                             position: absolute;
                                             top: 50%;
                                             transform: translateY(-50%);
-                                            right: 0;
+                                            right: 0px;
                                             cursor: pointer;
 
                                             &::before {
@@ -1323,12 +1323,12 @@
 
                                 .copy_ic {
                                     width: 42px;
-                                    height: 42px;
+                                    height: 37px;
                                     background: $input_disabledBG;
                                     position: absolute;
                                     top: 50%;
                                     transform: translateY(-50%);
-                                    right: 0;
+                                    right: 1px;
                                     cursor: pointer;
 
                                     &::before {
