@@ -2295,7 +2295,7 @@ html body .mainWrap .center .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .mainWrap .center .marqueeWrap .marquee .textBox p {
-  color: #66E123;
+  color: #ffcb72;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -2411,7 +2411,7 @@ html body .mainWrap .center .typeList .typeBox .title i.board_ic {
 }
 html body .mainWrap .center .typeList .typeBox .title p {
   width: 185px;
-  color: #66E123;
+  color: #ff0000;
   font-size: 24px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -2420,7 +2420,7 @@ html body .mainWrap .center .typeList .typeBox .title p {
 html body .mainWrap .center .typeList .typeBox .title .line {
   width: 100%;
   height: 3px;
-  background: #66E123;
+  background: #ff0000;
 }
 html body .mainWrap .center .typeList .typeBox .title .star {
   width: 112px;
@@ -2461,7 +2461,7 @@ html body .mainWrap .center .typeList .typeBox ul ol li.game {
 }
 html body .mainWrap .center .typeList .typeBox ul ol li p {
   width: 100%;
-  color: #66E123;
+  color: #ff0000;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -2950,7 +2950,7 @@ html body .filter .jumpWindow.forgetPassword form button:hover, html body .filte
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 }
 html body .filter .jumpWindow.forgetPassword form p {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
@@ -3491,7 +3491,7 @@ html body .filter .jumpWindow.loading .content p {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #292CFF;
+  color: #0070C0;
   margin-top: 20px;
 }
 @-webkit-keyframes loading {
@@ -3930,7 +3930,7 @@ html body .filter .jumpWindow.changePhone .content .btnBox button:hover, html bo
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 }
 html body .filter .jumpWindow.changePhone .content .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 12px;
   font-weight: bold;
   margin-top: 5px;
@@ -3988,7 +3988,7 @@ html body .filter .jumpWindow.changePassword .content .inputBox input:disabled {
   color: #ffcb72 !important;
 }
 html body .filter .jumpWindow.changePassword .content .inputBox .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 12px;
   font-weight: bold;
   margin-top: 5px;
@@ -4164,7 +4164,7 @@ html body .filter .jumpWindow.agentRegister .box .top .right .row .remindBox {
 }
 html body .filter .jumpWindow.agentRegister .box .top .left .row .remindBox p,
 html body .filter .jumpWindow.agentRegister .box .top .right .row .remindBox p {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 5px;
@@ -4312,7 +4312,7 @@ html body .filter .jumpWindow.agentRegister .box .bottom div input:checked::afte
   display: block;
 }
 html body .filter .jumpWindow.agentRegister .box .bottom div p {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 25px;
   font-weight: bold;
   text-decoration: underline;
@@ -4465,7 +4465,7 @@ html body .gameWrap .content .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .gameWrap .content .marqueeWrap .marquee .textBox p {
-  color: #66E123;
+  color: #ffcb72;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -4689,7 +4689,7 @@ html body .gameWrap .content .gameBox li div i {
 }
 html body .gameWrap .content .gameBox li p {
   width: 100%;
-  color: #66E123;
+  color: #ff0000;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -4820,7 +4820,7 @@ html body .eventWrap .content .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .eventWrap .content .marqueeWrap .marquee .textBox p {
-  color: #66E123;
+  color: #ffcb72;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -5161,7 +5161,7 @@ html body .innerPage .center .banner .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .innerPage .center .banner .marqueeWrap .marquee .textBox p {
-  color: #66E123;
+  color: #ffcb72;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -5697,7 +5697,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox 
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .box ul li .inputBox .remind {
   width: 320px;
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
@@ -5747,7 +5747,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox 
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .topBox .link {
   width: 100%;
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -5845,7 +5845,7 @@ html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox 
 }
 html body .innerPage .center .innerMainWrap .rightSide.member .applyBox .midBox ul li .inputBox .remind {
   width: 320px;
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   line-height: 18px;
@@ -6951,7 +6951,7 @@ html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .inputBox 
   color: #ffcb72 !important;
 }
 html body .innerPage .center .innerMainWrap .rightSide.card .applyBox .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   margin-top: 5px;
@@ -7203,7 +7203,7 @@ html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal
   background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .checkBtn:hover, html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .checkBtn:active, html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .topBox .checkBtn.active {
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.dealRecord .applyBox.deal .downBox {
   width: 100%;
@@ -7667,7 +7667,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
   pointer-events: none;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .box .row .inputBox .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 12px;
   font-weight: bold;
   position: absolute;
@@ -7720,7 +7720,7 @@ html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topB
   background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .check:hover, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .check:active, html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .topBox .check.active {
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.betRecord .applyBox .downBox {
   width: 100%;
@@ -9553,7 +9553,7 @@ html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .
   background: linear-gradient(to bottom, #970707 0%, #cf0505 98%);
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .checkBtn:hover, html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .checkBtn:active, html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .topBox .checkBtn.active {
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.point .applyBox .downBox {
   width: 100%;
@@ -10077,7 +10077,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .inpu
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .depContent .remind {
   width: 100%;
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
   text-align: center;
@@ -10135,7 +10135,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .small
   margin: 0 10px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .smallTitle p {
-  color: #66E123;
+  color: #ff0000;
   font-size: 18px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -10144,7 +10144,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .small
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .smallTitle .line {
   width: 100%;
   height: 2px;
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .content {
   width: 100%;
@@ -10161,7 +10161,7 @@ html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .conte
   line-height: 24px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .content p.remind {
-  color: #292CFF;
+  color: #0070C0;
 }
 html body .innerPage .center .innerMainWrap .rightSide.deposit .remindBox .content p.innerTitle {
   color: #ba9141;
@@ -10903,7 +10903,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box
   color: #ffcb72 !important;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .box .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 14px;
   font-weight: bold;
 }
@@ -10952,7 +10952,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
   margin: 0 10px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .smallTitle p {
-  color: #66E123;
+  color: #ff0000;
   font-size: 18px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -10961,7 +10961,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .smallTitle .line {
   width: 100%;
   height: 2px;
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .content {
   width: 100%;
@@ -10978,7 +10978,7 @@ html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .rem
   line-height: 24px;
 }
 html body .innerPage .center .innerMainWrap .rightSide.withdrawal .applyBox .remindBox .content p.remind {
-  color: #292CFF;
+  color: #0070C0;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title {
   width: 100%;
@@ -11007,7 +11007,7 @@ html body .innerPage .center .innerMainWrap .rightSide .title .smallStar_ic {
       flex-shrink: 0;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title p {
-  color: #66E123;
+  color: #ff0000;
   font-size: 16px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -11017,7 +11017,7 @@ html body .innerPage .center .innerMainWrap .rightSide .title p {
 html body .innerPage .center .innerMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #66E123;
+  background: #ff0000;
 }
 html body .innerPage .center .innerMainWrap .rightSide .title .star_ic {
   width: 112px;
@@ -11091,7 +11091,7 @@ html body .help .center .marqueeWrap .marquee .textBox {
   overflow: hidden;
 }
 html body .help .center .marqueeWrap .marquee .textBox p {
-  color: #66E123;
+  color: #ffcb72;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -11293,7 +11293,7 @@ html body .help .center .helpMainWrap .rightSide .title .smallStar_ic {
       flex-shrink: 0;
 }
 html body .help .center .helpMainWrap .rightSide .title p {
-  color: #66E123;
+  color: #ff0000;
   font-size: 16px;
   font-weight: bold;
   -ms-flex-negative: 0;
@@ -11303,7 +11303,7 @@ html body .help .center .helpMainWrap .rightSide .title p {
 html body .help .center .helpMainWrap .rightSide .title .line {
   width: 100%;
   height: 2px;
-  background: #66E123;
+  background: #ff0000;
 }
 html body .help .center .helpMainWrap .rightSide .title .star_ic {
   width: 112px;
@@ -11420,7 +11420,7 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .moreList li .content
   margin: 0;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .moreList li .content p .remind {
-  color: #292CFF;
+  color: #0070C0;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox {
   width: 100%;
@@ -11457,7 +11457,7 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .textBox p:last-child
   margin: 0;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox p .remind {
-  color: #292CFF;
+  color: #0070C0;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .uploadBox {
   width: 100%;
@@ -11529,7 +11529,7 @@ html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .uploadBox .
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .uploadBox .box .innerBox .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 12px;
 }
 html body .help .center .helpMainWrap .rightSide .helpInfo .textBox .btnBox {
@@ -11705,7 +11705,7 @@ html body .register .box .inputBox .getCode:hover, html body .register .box .inp
   background: linear-gradient(to bottom, #bc9c64 4%, #f3d197 93%);
 }
 html body .register .box .inputBox .remind {
-  color: #292CFF;
+  color: #0070C0;
   font-size: 12px;
   font-weight: bold;
   position: absolute;
@@ -11766,7 +11766,7 @@ html body .register .box .checkBox p {
   font-weight: bold;
 }
 html body .register .box .checkBox p span {
-  color: #292CFF;
+  color: #0070C0;
   cursor: pointer;
 }
 html body .register .box .btnBox {

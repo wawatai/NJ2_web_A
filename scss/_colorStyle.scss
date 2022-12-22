@@ -12,7 +12,7 @@ $mainFont_4: #ffffff;
 $mainFont_5: #ffcb72;
 
 //提醒字色
-$remind: #292CFF;
+$remind: #0070C0;
 $remind_sus: #009d0f;
 $remind_fail: #b8151a;
 $disable: #929292;
@@ -138,7 +138,7 @@ $marquee_Border: #daaf6d;
 $marquee_Linear: linear-gradient(to bottom, #C9A76C 0%, #DD2830 100%);
 $marquee_Linear_Word: #ffffff;
 $marquee_Shadow: #0000002c;
-$marquee_Word: $subDeco_color;
+$marquee_Word: $mainFont_5;
 
 //mainWrap
 $line: #c30505;
