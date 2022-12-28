@@ -184,6 +184,10 @@ footer .evo {
 footer .qs {
     background: url('../images/partner/footer_partner/qs.png') no-repeat center;
 }
+footer .link::before {
+    background: url('../images/GC-icon.png') no-repeat center;
+    background-size: contain;
+}
 
 //gameWrap
 .gameWrap .content .banner {
@@ -927,7 +931,7 @@ footer .qs {
 
 //logo
 header .logo {
-    height: 60px;
+    height: 70px;
     object-fit: contain;
 }
 

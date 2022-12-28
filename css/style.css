@@ -223,6 +223,11 @@ footer .qs {
   background: url("../images/partner/footer_partner/qs.png") no-repeat center;
 }
 
+footer .link::before {
+  background: url("../images/GC-icon.png") no-repeat center;
+  background-size: contain;
+}
+
 .gameWrap .content .banner {
   background: url("../images/gameWrap_TitleBG.png") no-repeat;
   background-size: contain;
@@ -1065,7 +1070,7 @@ footer .qs {
 }
 
 header .logo {
-  height: 60px;
+  height: 70px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -2604,6 +2609,20 @@ html body footer .center .top .linkBox button:hover, html body footer .center .t
 }
 html body footer .center .top .linkBox button:hover, html body footer .center .top .linkBox button:active, html body footer .center .top .linkBox button.active {
   color: #3a3a3a;
+}
+html body footer .center .top .linkBox button.link {
+  background: #ffffff;
+  position: relative;
+}
+html body footer .center .top .linkBox button.link::before {
+  content: "";
+  width: 121px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 html body footer .center .top .linkBox iframe {
   width: 200px;

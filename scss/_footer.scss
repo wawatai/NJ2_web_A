@@ -116,6 +116,21 @@ footer {
                     &:hover,&:active,&.active {
                         color: $mainFont_3;
                     }
+
+                    &.link {
+                        background: #ffffff;
+                        position: relative;
+
+                        &::before {
+                            content: "";
+                            width: 121px;
+                            height: 48px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                        }
+                    }
                 }
 
                 iframe {
